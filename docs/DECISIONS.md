@@ -28,3 +28,4 @@ Key product decisions and why they were made. A later decision replaces an earli
 | 22 | 2 Nov 2026 | Rename the product SpaceBack and the fictional airline Solvane Air Cargo, flight code SVZ | Earlier names were close to real aviation and logistics brands in the same region | Keep the earlier names |
 | 23 | 2 Nov 2026 | Replace the pilot document with a fuller launch plan | A team needs stage gates, requirements, owners and post-launch metrics in one place | Keep a shorter pilot note |
 | 24 | 2 Nov 2026 | Publish a break-even model, not an ROI claim | There are no real inputs, so any ROI would be invented | Show a headline ROI |
+| 25 | 2 Nov 2026 | Make space reuse rate the north star; revenue becomes the business result | The objective is to reuse wasted space. Revenue shows whether that is worth the cost | Keep revenue as the north star |

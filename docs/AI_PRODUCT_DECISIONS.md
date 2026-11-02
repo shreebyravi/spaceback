@@ -104,7 +104,7 @@ Coding got faster, which made judgement more important: whether the problem is r
 - **This prototype:** not measured. No real usage volumes exist, and a full live run hasn't been done.
 - **How to estimate:** cost per case = (input tokens × input price) + (output tokens × output price). Multiply by replies per flight and flights per day.
 - **Real implementation:** set a cost per recovered kg, and a response-time target. Look at ways to reduce repeated cost, such as caching shared policy text.
-- **The product question:** is the recovered revenue clearly worth more than the AI and review costs?
+- **The product question:** is the value greater than the cost? Compare incremental revenue, then contribution, with the AI, integration and review costs.
 
 ### 13. What happens when the AI fails?
 

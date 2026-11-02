@@ -25,9 +25,11 @@ Forwarders cancel late, send less than they booked, or never show up. An [AGIFOR
 
 | Goal | Measure | Target for a pilot, to be agreed |
 |---|---|---|
-| Recover more space | Share of freed space resold before cut-off | Better than the route's baseline |
+| Reuse wasted space (north star) | Space reuse rate: freed kg rebooked and flown ÷ total freed kg | Better than the route's baseline |
+| Create value above cost | Incremental revenue, then contribution, against total running cost | To be agreed; see the business case model |
 | Save controller time | Time per case | Under one minute |
-| Stay safe | Release without written notice, or action without approval | Zero |
+| Stay safe | Guardrails: release without written notice, or action without approval | Zero |
+| Avoid customer harm | Guardrails: cargo offloaded because of a release or offer, and forwarder complaints | Set before an assisted pilot |
 
 None of these has been measured on real operations.
 

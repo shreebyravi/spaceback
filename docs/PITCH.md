@@ -46,7 +46,7 @@ A working prototype with made-up data. It includes a dashboard, the agent workfl
 | **Shadow pilot** | About 2 weeks | One route. The agent proposes, nothing is sent, and controllers compare it with their own decisions |
 | **Assisted pilot** | 2-4 weeks | Messages and changes go out only after approval, once reviews are complete |
 
-**The question a pilot answers:** how much more space can be resold before cut-off, and how much time does it save?
+**The question a pilot answers:** how much wasted space can be reused before cut-off, and is that value greater than the cost?
 
 ## See it
 

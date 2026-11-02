@@ -6,7 +6,7 @@ A break-even model an airline can fill in with its own numbers.
 
 ## The question
 
-**How much space would SpaceBack need to recover each month to cover its costs?**
+**Is the value greater than the cost?** How much space would SpaceBack need to reuse each month to cover its costs?
 
 ## The calculation
 

@@ -18,7 +18,7 @@ The biggest unknown isn't the software. It's whether enough freed space can be r
 | Can freed space be resold in time? | Historical data on cancellations, waiting demand and cut-off | Too little demand or too little time |
 | Is the agent accurate enough? | Evals, then shadow mode | Any hard-limit breach; low agreement with controllers |
 | Will controllers use it? | Usage and weekly feedback | They work around it or don't trust it |
-| Is it worth the cost? | Recovered revenue against AI, integration and review costs | Value doesn't clearly exceed cost |
+| Is the value greater than the cost? | Incremental revenue, then contribution, against AI, integration and review costs | Value doesn't clearly exceed cost |
 
 ## Launch stages and gates
 
@@ -98,17 +98,39 @@ Measure a baseline first. Compare the pilot route with its own history, and with
 
 ### North star
 
-**Cargo revenue recovered per flight from space that would otherwise have flown empty.**
+**Space reuse rate: the share of freed space that was rebooked and actually flew, compared with the baseline.**
 
-- **Calculation:** revenue from accepted rebookings that actually flew on freed space, compared with the baseline.
-- **Why this one:** it combines the workflow's outcome and its business value.
+- **Calculation:** freed kg rebooked and flown ÷ total freed kg.
+- **Why this one:** SpaceBack's objective is to reuse space that would otherwise go to waste.
+- **Shown beside it:** incremental kg reused and flown per flight, so a high rate on a tiny amount can't look like a big win.
+- **What counts as freed:** all confirmed cancellations and reductions, so only easy cases can't be counted.
 - **Counts only:** cargo that actually flew. Offers don't count.
+
+### Space funnel
+
+The funnel shows where space is being lost.
+
+| Stage | Metric | What it tells you |
+|---|---|---|
+| **1. Identified** | Kg and bookings flagged as possibly unused | How much space the check surfaces |
+| **2. Confirmed** | Kg confirmed free by a written cancellation or reduction | How many flags were right |
+| **3. Released** | Kg released after a person approved | How much space became sellable |
+| **4. Offered** | Offers made and kg offered | Whether freed space reaches waiting requests |
+| **5. Accepted** | Reallocations accepted and kg | Whether offers suit forwarders |
+| **6. Flown** | Reallocated kg that actually flew | The real outcome, which feeds the north star |
+
+Identified space and reallocation counts aren't north stars, because they can rise without creating value.
+
+### Business result
+
+**Is the value greater than the cost?**
+
+Compare incremental revenue, then contribution once finance data is available, with the total cost of running SpaceBack. See the [business case model](BUSINESS_CASE.md).
 
 ### Value metrics
 
 | Metric | How it's calculated | Source | Check | Proposed target |
 |---|---|---|---|---|
-| Space recovery rate | Freed kg rebooked and flown ÷ total freed kg | Booking system | Weekly | Better than baseline |
 | Empty space on the route | Unused kg ÷ capacity | Flight records | Weekly | Lower than baseline and comparison route |
 | Time from cancellation to resale | Cancellation time to accepted offer | SpaceBack log | Weekly | Shorter than baseline |
 | Controller time per case | Time from opening to decision | SpaceBack log | Weekly | Under one minute |
@@ -132,7 +154,6 @@ Measure a baseline first. Compare the pilot route with its own history, and with
 | Share of eligible cases handled in SpaceBack | Weekly | Most cases by the end of the pilot |
 | Controllers choosing to keep using it | Weekly and at each gate | All pilot users |
 | Time spent working around it | Weekly feedback | Falling |
-| Forwarder complaints about messages | Weekly | No increase from baseline |
 
 ### Reliability and cost metrics
 
@@ -142,9 +163,9 @@ Measure a baseline first. Compare the pilot route with its own history, and with
 | Data feed freshness | Hourly | Set with IT |
 | AI cost per case and per recovered kg | Weekly | Clearly below value recovered |
 
-### Hard limits
+### Guardrails
 
-Any breach pauses the pilot.
+**Hard limits:** any breach pauses the pilot.
 
 | Must always be zero | Why |
 |---|---|
@@ -153,6 +174,16 @@ Any breach pauses the pilot.
 | Fee amount stated in a forwarder message | Fees must be confirmed by a person |
 | A dangerous-goods or security decision made by the AI | Must stay with the responsible team |
 | Personal or commercial data sent outside approved systems | Privacy and contract risk |
+
+**Warning guardrails:** a breach triggers a review.
+
+| Guardrail | Why it matters | Proposed threshold |
+|---|---|---|
+| Cargo offloaded or rolled because of a release or offer | Recovered space must not leave a customer's cargo behind | Set before the assisted pilot; any case is reviewed |
+| Forwarder complaints and message volume | Too many chasers could damage relationships | No increase from baseline |
+| Wrong releases reversed by a person | Shows the agent or process is making mistakes | Set before the assisted pilot |
+| Very fast approvals | People may be approving without reading | Sample these cases weekly |
+| Offers approved where the cargo didn't fly | Keeps results from being overstated | Reported weekly |
 
 ## Monitoring routine
 
@@ -168,8 +199,7 @@ Any breach pauses the pilot.
 |---|---|
 | Any hard-limit breach | Pause, investigate and report |
 | Edit rate rises for two weeks | Sample cases; review prompt and rules |
-| Very fast approvals | Check people are really reviewing |
-| Recovery rate doesn't beat the baseline by the gate | Fix, narrow or stop |
+| Space reuse rate doesn't beat the baseline by the gate | Fix, narrow or stop |
 | AI errors or stale data | Fall back to manual work and alert the owner |
 | A model, prompt or policy change | Run evals before release |
 
@@ -200,13 +230,13 @@ Turning SpaceBack off must leave normal work unchanged, and it is never the only
 | Existing tools already do this | Discovery findings | Integrate, narrow or stop |
 | Data access takes too long | Missed readiness dates | Start with exports in shadow mode |
 | Controllers don't trust it | Low use and many edits | Improve evidence, or narrow scope |
-| Too little demand to resell | Low recovery rate | Focus on routes with waiting demand |
+| Too little demand to resell | Low space reuse rate | Focus on routes with waiting demand |
 | Forwarders dislike extra messages | More complaints | Limit volume and agree wording with sales |
 
 ## Decisions needed from the airline
 
 1. Who is the sponsor, and which route should be first?
 2. What baseline and comparison route should we use?
-3. What agreement and recovery targets justify moving on?
+3. What agreement and space reuse targets justify moving on?
 4. Which data and AI providers are allowed?
 5. Should this be built, bought or added to an existing system?
