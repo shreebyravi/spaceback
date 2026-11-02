@@ -16,5 +16,5 @@ The documents a team would expect when building this inside an airline or a soft
 | [DECISIONS.md](DECISIONS.md) | Key decisions, and why |
 | [EVALS.md](EVALS.md) | How it was tested, including what went wrong |
 | [RISK_AND_COMPLIANCE.md](RISK_AND_COMPLIANCE.md) | What could go wrong, and what real use needs |
-| [PILOT_AND_MONITORING.md](PILOT_AND_MONITORING.md) | How to test it safely on one route |
+| [LAUNCH_PLAN.md](LAUNCH_PLAN.md) | Launch stages, what's required, owners, post-launch metrics and rollback |
 | [ROADMAP.md](ROADMAP.md) | The next two scopes |

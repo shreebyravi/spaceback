@@ -26,3 +26,4 @@ Key product decisions and why they were made. A later decision replaces an earli
 | 20 | 2 Nov 2026 | Use a fictional airline and an original aviation look | The page must not imply affiliation with any airline | Copy an airline's branding |
 | 21 | 2 Nov 2026 | Forwarder's own words in messages; no third chaser | Fixes for E-02 and E-03 from the quality checks | Accept the wording and the extra chaser |
 | 22 | 2 Nov 2026 | Rename the product SpaceBack and the fictional airline Solvane Air Cargo, flight code SVZ | Earlier names were close to real aviation and logistics brands in the same region | Keep the earlier names |
+| 23 | 2 Nov 2026 | Replace the pilot document with a fuller launch plan | A team needs stage gates, requirements, owners and post-launch metrics in one place | Keep a shorter pilot note |

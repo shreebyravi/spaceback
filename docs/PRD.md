@@ -103,4 +103,4 @@ Six eval cases and six stress tests are in [EVALS.md](EVALS.md). In the latest r
 
 ## Rollout
 
-Discovery with controllers, then a shadow pilot on one route, then an assisted pilot. See [PILOT_AND_MONITORING.md](PILOT_AND_MONITORING.md) and [ROADMAP.md](ROADMAP.md).
+Discovery with controllers, then a shadow pilot on one route, then an assisted pilot. See [LAUNCH_PLAN.md](LAUNCH_PLAN.md) and [ROADMAP.md](ROADMAP.md).

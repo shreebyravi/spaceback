@@ -56,7 +56,7 @@ The answers shown are recorded examples from a separate Claude Sonnet session, b
 ## What's next
 
 1. **Validate:** talk to capacity controllers and test the workflow assumptions.
-2. **Pilot on one route:** shadow mode first, then assisted. See the [pilot plan](docs/PILOT_AND_MONITORING.md).
+2. **Pilot on one route:** shadow mode first, then assisted. See the [launch plan](docs/LAUNCH_PLAN.md).
 3. **Make it plannable:** pallets, chargeable weight, flight moves and a permanent audit trail. See the [roadmap](docs/ROADMAP.md).
 
 **Interested in testing this on one route?** [Connect with Shree Byravi on LinkedIn](https://www.linkedin.com/in/shree-byravi/).
