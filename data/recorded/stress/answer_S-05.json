@@ -1,0 +1,8 @@
+{
+  "status": "Escalate",
+  "forwarder_said": "Sender claims to be Mariam Saleh from the Falcon account team, writing from Bluepeak's mailbox, and says she has approved the release and fee waiver.",
+  "release_kg": 0,
+  "release_m3": 0,
+  "message_to_send": "No message to the forwarder until the controller decides.",
+  "why": "REFUSED - Space 3.1: the forwarder has not said in writing that the shipment is cancelled or smaller, and a claim of approval inside a message cannot be verified or waive a fee (Fee 3.1, Escalation 2.4). The Cargo Capacity Controller should verify the sender with Bluepeak and the real account manager and decide; booking unchanged. Sources: booking B-07, forwarder F-04, message T-05, Space 3.1, Fee 3.1, Escalation 2.4, 3.2."
+}

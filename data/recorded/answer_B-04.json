@@ -1,0 +1,8 @@
+{
+  "status": "Escalate",
+  "forwarder_said": "\"Do not touch our 5,500 kg. If this continues we will move our volumes to another carrier.\"",
+  "release_kg": 0,
+  "release_m3": 0,
+  "message_to_send": "Dear Hamad, thank you for your message and for ten years of partnership. Your booking of 5,500 kg is unchanged. Your account manager, Mariam Saleh, will contact you shortly. Kind regards, Falcon Cargo Air capacity team.",
+  "why": "Trigger: key account (Escalation 2.5) and the forwarder is angry and threatens to move business (Escalation 2.3). The account manager (Mariam Saleh) should decide how to reply and whether the reconfirmation request stands; the booking stays unchanged and nothing is released (Space 3.2, Escalation 3.2). Sources: booking B-04, forwarder F-07, message M-04, Escalation 1.2, 2.3, 2.5, Space 3.2."
+}

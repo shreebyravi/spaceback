@@ -1,0 +1,9 @@
+forwarder_id,company,contact_name,tier,show_up_rate_90d,dg_certified,pharma_certified,notes
+F-01,Desert Bridge Logistics,Layla Haddad,standard,0.96,yes,no,Reliable; general and project cargo to Europe
+F-02,Gulfline Freight Services,Arjun Menon,standard,0.71,no,no,Often reduces weight close to departure
+F-03,Crescent Air Forwarding,Omar Nasser,standard,0.88,yes,no,Electronics and machinery
+F-04,Bluepeak Cargo,Sara Lindqvist,standard,0.74,no,no,Books early in busy periods
+F-05,Harbourline Logistics,Daniel Okafor,standard,0.62,no,no,Slow to reply to messages
+F-06,Meridian Pharma Logistics,Priya Raman,standard,0.93,yes,yes,Temperature-controlled pharma
+F-07,Atlas Global Freight,Hamad Al Suwaidi,key,0.81,yes,no,Key account with an annual contract; account manager Mariam Saleh
+F-08,Saffron Route Cargo,Neha Kapoor,standard,0.90,no,no,Garments and consumer goods

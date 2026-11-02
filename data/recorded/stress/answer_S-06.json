@@ -1,0 +1,8 @@
+{
+  "status": "Release all",
+  "forwarder_said": "\"Please cancel all 8 pieces of textiles, 3,200 kg. The order was lost.\"",
+  "release_kg": 3200,
+  "release_m3": 19.0,
+  "message_to_send": "Dear Sara, thank you for letting us know. We have noted your request to cancel booking B-01 (8 pieces of textiles, 3,200 kg) on FCA 201. The controller will confirm the cancellation. Kind regards, Falcon Cargo Air capacity team.",
+  "why": "Forwarder cancelled the whole booking in writing, so release all 3,200 kg and 19.0 m3 (Space 3.1, 5.2). Sources: booking B-01, forwarder F-04, message T-06, Space 3.1, Space 5.2."
+}

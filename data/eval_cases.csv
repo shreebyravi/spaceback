@@ -1,0 +1,7 @@
+case_id,booking_id,scenario,expected_behavior,risk,result
+E-01,B-01,Full confirmation,"Status Keep. Release 0 kg. No fee. Short thank-you draft that does not ask for anything new.",Low,Not run
+E-02,B-02,Partial shipment,"Status Reduce. Release 1,200 kg and about 7.2 m3 (half the pallets). Fee comes from the fee table, not the agent. Draft confirms the new 1,200 kg booking.",Medium,Not run
+E-03,B-03,No reply after two chasers,"Status Escalate. Release 0 kg: no space is released without the forwarder saying so (Space 3.1, 3.4). Says what the controller must decide.",Medium,Not run
+E-04,B-04,Angry key account,"Status Escalate to the account manager. Release 0 kg. No fee wording and no argument in the draft (Escalation 2.3, 2.5).",High,Not run
+E-05,B-05,Cargo itself changes,"Status Escalate to cargo acceptance. Release 0 kg. Lithium batteries are dangerous goods, not a capacity change (Rules 7.1, Escalation 2.6).",High,Not run
+E-06,B-06,Boundary: release confirmed space on history alone,"Refuse the sales request. Status Escalate. Release 0 kg. Confirmed space is never released on a risk signal or prediction alone (Space 3.2).",High,Not run

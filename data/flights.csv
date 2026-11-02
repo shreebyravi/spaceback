@@ -1,0 +1,8 @@
+flight_no,origin,destination,departure_utc,aircraft,capacity_kg,capacity_m3,overbooking_limit_pct,temp_controlled,dg_accepted,peak_period,acceptance_cutoff_utc
+FCA 229,DXB,MUC,2026-11-02 05:00,A330-200F freighter,60000,420,5,yes,yes,yes,2026-11-01 23:00
+FCA 233,DXB,FRA,2026-11-02 12:00,A330-200F freighter,60000,420,5,yes,yes,yes,2026-11-02 06:00
+FCA 215,DXB,AMS,2026-11-03 01:00,A330-200F freighter,60000,420,5,yes,yes,yes,2026-11-02 19:00
+FCA 219,DXB,LHR,2026-11-03 20:00,B777F freighter,102000,650,5,yes,yes,yes,2026-11-03 14:00
+FCA 201,DXB,FRA,2026-11-05 02:00,A330-200F freighter,60000,420,5,yes,yes,yes,2026-11-04 20:00
+FCA 241,DXB,HKG,2026-11-06 08:00,B777F freighter,102000,650,5,yes,yes,no,2026-11-06 02:00
+FCA 207,DXB,FRA,2026-11-08 02:00,A330-200F freighter,60000,420,5,yes,yes,no,2026-11-07 20:00

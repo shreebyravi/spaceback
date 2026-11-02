@@ -1,0 +1,8 @@
+{
+  "status": "Keep",
+  "forwarder_said": "\"all 8 pieces of textiles (3,200 kg) are confirmed for FCA 201\"",
+  "release_kg": 0,
+  "release_m3": 0,
+  "message_to_send": "Dear Sara, thank you for confirming all 8 pieces of textiles, 3,200 kg, on FCA 201 departing 2026-11-05 02:00 UTC. We look forward to receiving the air waybill. Kind regards, Falcon Cargo Air capacity team.",
+  "why": "Forwarder confirmed the full booking in writing, so nothing is released; risk signals R1 and R2 are only reasons to ask (Space 2.6, 3.2). Sources: booking B-01, forwarder F-04, message M-01, Space 2.6, Space 3.2."
+}
