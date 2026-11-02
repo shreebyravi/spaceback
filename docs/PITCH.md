@@ -50,6 +50,7 @@ A working prototype with made-up data. It includes a dashboard, the agent workfl
 
 ## See it
 
+- **Watch the 2-minute walkthrough:** https://shreebyravi.github.io/spaceback/video/spaceback-walkthrough.mp4
 - **Try the prototype:** https://shreebyravi.github.io/spaceback/
 - **Read the documents:** https://github.com/shreebyravi/spaceback
 - **Contact Shree Byravi:** https://www.linkedin.com/in/shree-byravi/

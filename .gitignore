@@ -1,2 +1,3 @@
 *.mp4
+!video/spaceback-walkthrough.mp4
 .DS_Store

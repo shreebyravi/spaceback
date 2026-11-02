@@ -517,6 +517,7 @@ textarea { width: 100%; resize: vertical; }
 .contact-card { margin-top: var(--sp-5); border-left: 3px solid var(--accent); }
 .contact-card a, .site-foot a { color: var(--accent); }
 .site-foot { padding: var(--sp-4); text-align: center; font-size: var(--fs-0); color: var(--ink-3); border-top: 1px solid var(--line); }
+.walkthrough { display: block; width: 100%; max-width: 900px; aspect-ratio: 16 / 9; background: var(--bg-inset); border: var(--border-w) solid var(--line); border-radius: var(--radius); }
 .hero-cta { margin: var(--sp-4) 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-3); }
 .roadmap { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-3); }
 .roadmap .card { border-top: 3px solid var(--line); }
@@ -582,6 +583,12 @@ textarea { width: 100%; resize: vertical; }
   <p class="lead">Forwarders cancel late, send less than they booked, or never show up. SpaceBack gives your capacity team one place to see what changed, reads forwarder replies, and helps them resell freed space before cut-off, with a person approving every step.</p>
   <p class="hero-cta"><button class="btn approve" data-go="control">See it in action &rarr;</button> <span class="hint">No login or setup. Made-up data.</span></p>
   </div>
+
+  <div class="label">See it in 2 minutes</div>
+  <video class="walkthrough" controls preload="metadata" playsinline poster="video/poster.jpg">
+    <source src="video/spaceback-walkthrough.mp4" type="video/mp4">
+    <a href="video/spaceback-walkthrough.mp4">Watch the walkthrough</a>
+  </video>
 
   <div class="label">The problem</div>
   <div class="grid3">

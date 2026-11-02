@@ -6,6 +6,10 @@ An AI agent prototype for airline cargo teams. It shows what changed on every up
 
 **[Try it, no login needed](https://shreebyravi.github.io/spaceback/)** | **[One-page pitch](docs/PITCH.md)** | **Status:** prototype with made-up data
 
+[![Watch the 2-minute SpaceBack walkthrough](video/poster.jpg)](https://shreebyravi.github.io/spaceback/video/spaceback-walkthrough.mp4)
+
+**[Watch the 2-minute walkthrough](https://shreebyravi.github.io/spaceback/video/spaceback-walkthrough.mp4)**
+
 ![Cargo Space Control dashboard](docs/images/dashboard.jpg)
 
 ## The problem
@@ -70,6 +74,7 @@ The answers shown are recorded examples from a separate Claude Sonnet session, b
 | `data/` | Made-up flights, bookings, forwarders and recorded answers |
 | `policies/` | Fictional rules the agent follows |
 | `design/` | Notes on the look and feel |
+| `video/` | The walkthrough video |
 
 ## Run it yourself
 
