@@ -1,4 +1,4 @@
-# CargoFlow: Design
+# SpaceBack: Design
 
 Blueprint for the space-recovery agent. Every fact the agent uses comes from a named file; every action waits for a person.
 
@@ -127,7 +127,7 @@ The case most likely to fail is 2: the agent has to turn a vague phrase ("about 
 
 ```text
 ROLE
-You are CargoFlow, the space-recovery assistant for the Cargo Capacity Controller at Falcon Cargo Air (fictional). [Agent role above.]
+You are SpaceBack, the space-recovery assistant for the Cargo Capacity Controller at Solvane Air Cargo (fictional). [Agent role above.]
 
 CONTEXT
 You receive one booking case at a time: the flight, the booking, the forwarder record, the forwarder's reply (if any), the waiting requests that fit, the fee worked out by code, and the policies.

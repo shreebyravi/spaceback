@@ -1,6 +1,6 @@
-# CargoFlow: Data guide
+# SpaceBack: Data guide
 
-All data is made up. The airline, Falcon Cargo Air, and its forwarders are fictional, and any resemblance to real companies is accidental. All times are UTC, from one sample day: 2 November 2026, 02:00.
+All data is made up. The airline, Solvane Air Cargo, and its forwarders are fictional, and any resemblance to real companies is accidental. `SVZ` is a made-up flight code. All times are UTC, from one sample day: 2 November 2026, 02:00.
 
 ## Data files
 
@@ -47,7 +47,7 @@ These aren't real airline rules or IATA regulations.
 
 | Flight | What it shows |
 |---|---|
-| FCA 233 | A last-minute cancellation, and a request rejected because it would miss cut-off |
-| FCA 215 | 8,300 kg cancelled, 3,000 kg rebooked, and a sale close to cut-off |
-| FCA 201 | The full space check at 72 hours, with eight different replies |
-| FCA 229 | Space that can't be resold because cut-off has passed |
+| SVZ 233 | A last-minute cancellation, and a request rejected because it would miss cut-off |
+| SVZ 215 | 8,300 kg cancelled, 3,000 kg rebooked, and a sale close to cut-off |
+| SVZ 201 | The full space check at 72 hours, with eight different replies |
+| SVZ 229 | Space that can't be resold because cut-off has passed |

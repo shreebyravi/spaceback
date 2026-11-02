@@ -3,6 +3,6 @@
   "forwarder_said": "\"We can only ship about 2,000 lb of the furniture now, the rest will wait.\"",
   "release_kg": 0,
   "release_m3": 0,
-  "message_to_send": "Dear Sara, thank you for your reply. Booking B-07 is 6 pieces, 1,800 kg. Please confirm in kg how much and how many pieces will ship on FCA 201, by 12:00 UTC on 2026-11-04. Kind regards, Falcon Cargo Air capacity team.",
-  "why": "The forwarder gave the amount in pounds, not kg, with \"about\" and no pieces, so I will not convert or guess the figure; chase with one clear question (Space 3.3, 3.5, 4.1). Nothing released yet. Sources: booking B-07, forwarder F-04, message T-02, Space 3.3, Space 3.5."
+  "message_to_send": "Dear Sara, thank you for your reply. For booking B-07 on SVZ 201, please confirm by 12:00 UTC on 4 Nov the weight you will ship in kg (our booking is 6 pieces, 1,800 kg) and the number of pieces. Solvane Air Cargo capacity team.",
+  "why": "The forwarder gave an approximate weight in pounds and no pieces, so I will not convert or guess a figure to release (Space 3.3); chase once for kg and pieces by the 12:00 UTC deadline (Space 3.5). Sources: booking B-07, forwarder F-04, message T-02, Space 3.3, 3.5."
 }

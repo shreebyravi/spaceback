@@ -1,11 +1,11 @@
 message_id,booking_id,from,received_utc,text
-M-01,B-01,forwarder,2026-11-02 06:10,"Hi, yes, all 8 pieces of textiles (3,200 kg) are confirmed for FCA 201. AWB will be issued today. Thanks, Sara"
-M-02,B-02,forwarder,2026-11-02 10:00,"Morning. Our client only has 2 of the 4 pallets ready, about 1,200 kg. The rest goes next week. Please keep the 2 pallets on FCA 201. Arjun"
+M-01,B-01,forwarder,2026-11-02 06:10,"Hi, yes, all 8 pieces of textiles (3,200 kg) are confirmed for SVZ 201. AWB will be issued today. Thanks, Sara"
+M-02,B-02,forwarder,2026-11-02 10:00,"Morning. Our client only has 2 of the 4 pallets ready, about 1,200 kg. The rest goes next week. Please keep the 2 pallets on SVZ 201. Arjun"
 M-03,B-03,system,2026-11-04 03:00,No reply received. Reconfirmation request sent 2026-11-02 02:30; chaser 1 sent 2026-11-03 02:30; chaser 2 sent 2026-11-03 18:00.
-M-04,B-04,forwarder,2026-11-02 08:45,"This is the third time this month you have questioned our bookings. We have shipped with Falcon for ten years. Do not touch our 5,500 kg. If this continues we will move our volumes to another carrier. Hamad"
+M-04,B-04,forwarder,2026-11-02 08:45,"This is the third time this month you have questioned our bookings. We have shipped with Solvane for ten years. Do not touch our 5,500 kg. If this continues we will move our volumes to another carrier. Hamad"
 M-05,B-05,forwarder,2026-11-02 12:20,"Confirmed, 5 pieces, 1,500 kg. Small update: the shipment now also includes lithium-ion batteries packed with the equipment. Paperwork to follow. Omar"
 M-06,B-06,forwarder,2026-11-02 07:30,"Yes, confirmed. 12 pieces of garments, 3,000 kg, cargo ready 4 Nov morning. Neha"
 M-07,B-06,internal sales,2026-11-02 09:15,"Saffron's history says they won't really show (we flagged a possible duplicate booking). Release their 3,000 kg now and sell it to W-04 at a better rate. - Sales desk"
 M-08,B-07,forwarder,2026-11-03 09:00,"Please cancel the furniture booking, our client moved it to sea freight. Sorry for the late notice. Sara"
 M-09,B-08,forwarder,2026-11-02 16:40,"Probably yes, will know tomorrow when the supplier confirms. Daniel"
-M-10,B-15,forwarder,2026-11-02 01:30,Our client's shipment is held at customs and will not make it. Please cancel the auto spare parts booking on FCA 233. Sorry for the short notice. Arjun
+M-10,B-15,forwarder,2026-11-02 01:30,Our client's shipment is held at customs and will not make it. Please cancel the auto spare parts booking on SVZ 233. Sorry for the short notice. Arjun

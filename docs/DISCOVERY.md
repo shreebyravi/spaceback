@@ -1,8 +1,8 @@
-# CargoFlow: Discovery
+# SpaceBack: Discovery
 
-**CargoFlow recovers cargo space that is booked but will not fly, before the flight leaves.**
+**SpaceBack recovers cargo space that is booked but will not fly, before the flight leaves.**
 
-Prototype with synthetic data. The airline (Falcon Cargo Air), forwarders, flights and bookings are all made up. Nothing here is connected to any real airline or system.
+Prototype with synthetic data. The airline (Solvane Air Cargo), forwarders, flights and bookings are all made up. Nothing here is connected to any real airline or system.
 
 ## The problem in one paragraph
 
@@ -23,7 +23,7 @@ See [MARKET_SCAN.md](MARKET_SCAN.md) for the sources and what wasn't checked.
 
 ## Discovery answers
 
-**User:** Cargo Capacity Controller at an airline cargo division (fictional Falcon Cargo Air, Dubai hub). Watches each upcoming flight's bookings and decides what space to release and resell.
+**User:** Cargo Capacity Controller at an airline cargo division (fictional Solvane Air Cargo, Dubai hub). Watches each upcoming flight's bookings and decides what space to release and resell.
 
 **Workflow:** Pre-departure space recovery for one flight: find bookings that may not fly as booked, reconfirm them with forwarders, release unused space, and re-offer it to waiting requests.
 
@@ -79,4 +79,4 @@ Prediction already exists and recovers no space by itself. The missing work is s
 
 ## How it differs from ScreenGate
 
-ScreenGate waits for a flagged payment and helps a person review it. CargoFlow acts first, before a deadline: it starts conversations with outside companies, reads their replies, and moves scarce space from one customer to another.
+ScreenGate waits for a flagged payment and helps a person review it. SpaceBack acts first, before a deadline: it starts conversations with outside companies, reads their replies, and moves scarce space from one customer to another.

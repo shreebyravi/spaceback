@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CargoFlow AI</title>
+<title>SpaceBack AI</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════════════════════════
-   CARGOFLOW DESIGN TOKENS
+   SPACEBACK DESIGN TOKENS
 
    ═══════════════════════════════════════════════════════════════════ */
 
@@ -246,7 +246,7 @@ body {
 
 </style>
 <style>
-/* ═══ SKIN: CARGO (CargoFlow's own look) ═══
+/* ═══ SKIN: CARGO (SpaceBack's own look) ═══
    Deep navy with an ivory accent: premium and airline-like, but no airline's brand colours.
    Same token names as the kit skins; status colours stay shared. */
 [data-skin="cargo"] {
@@ -266,7 +266,7 @@ body {
 [data-skin="cargo"] .topbar { background: var(--bg-inset); border-bottom: 2px solid var(--accent); }
 [data-skin="cargo"] .topbar .product { letter-spacing: .04em; }
 
-/* ═══ CargoFlow layout additions: tokens only, no new colors or fonts ═══ */
+/* ═══ SpaceBack layout additions: tokens only, no new colors or fonts ═══ */
 .topbar { flex-wrap: wrap; }
 .console > * { min-width: 0; }
 .topbar .tagline { color: var(--ink-2); font-size: var(--fs-0); }
@@ -530,7 +530,7 @@ textarea { width: 100%; resize: vertical; }
 </head>
 <body>
 <header class="topbar">
-  <span class="product"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>CargoFlow AI</span>
+  <span class="product"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>SpaceBack AI</span>
   <span class="tagline">Recover cargo space before it flies empty</span>
   <div class="right">
     <span id="keyChip" class="badge warn">AI key needed</span>
@@ -579,7 +579,7 @@ textarea { width: 100%; resize: vertical; }
   </svg>
   <p class="eyebrow">AIR CARGO SPACE RECOVERY</p>
   <h1>Every week, cargo space is booked, then flies empty.</h1>
-  <p class="lead">Forwarders cancel late, send less than they booked, or never show up. CargoFlow gives your capacity team one place to see what changed, reads forwarder replies, and helps them resell freed space before cut-off, with a person approving every step.</p>
+  <p class="lead">Forwarders cancel late, send less than they booked, or never show up. SpaceBack gives your capacity team one place to see what changed, reads forwarder replies, and helps them resell freed space before cut-off, with a person approving every step.</p>
   <p class="hero-cta"><button class="btn approve" data-go="control">See it in action &rarr;</button> <span class="hint">No login or setup. Made-up data.</span></p>
   </div>
 
@@ -600,7 +600,7 @@ textarea { width: 100%; resize: vertical; }
     <p class="src">Synthetic and illustrative: 8 made-up weeks at a fictional airline, set inside the published 15–30% range. This is not real airline data.</p>
   </div>
 
-  <div class="label">How CargoFlow closes the gap</div>
+  <div class="label">How SpaceBack closes the gap</div>
   <div class="flow">
     <div class="step"><b>1 · Check</b>Every flight is checked automatically: what was cancelled, what is free, what is at risk and why, and what could fill it. Requests are prepared at 72 hours.</div>
     <div class="step human"><b>2 · Ask</b>A person approves reconfirmation requests to at-risk forwarders.</div>
@@ -660,7 +660,7 @@ textarea { width: 100%; resize: vertical; }
   </div>
 
   <div class="label">Safety, security and compliance</div>
-  <p class="lead" style="margin-bottom: var(--sp-3)">CargoFlow supports commercial capacity decisions. It does not replace load control, dangerous goods acceptance or security checks. We make no compliance claim for this prototype; a real deployment needs review by the airline's own teams and regulators.</p>
+  <p class="lead" style="margin-bottom: var(--sp-3)">SpaceBack supports commercial capacity decisions. It does not replace load control, dangerous goods acceptance or security checks. We make no compliance claim for this prototype; a real deployment needs review by the airline's own teams and regulators.</p>
   <div class="panel"><div class="panel-body" style="padding: 0">
     <table class="board-table">
       <thead><tr><th>Area</th><th>In this prototype</th><th>Before any real use</th></tr></thead>
@@ -690,7 +690,7 @@ textarea { width: 100%; resize: vertical; }
   <p style="margin-top: var(--sp-4)"><button class="btn primary" data-go="control">Open the control room &rarr;</button></p>
   <div class="card contact-card">
     <h3>Interested in testing this on one route?</h3>
-    <p>Built by Shree Byravi. <a href="https://www.linkedin.com/in/shree-byravi/" target="_blank" rel="noopener">Connect on LinkedIn</a> · <a href="https://github.com/shreebyravi/cargoflow" target="_blank" rel="noopener">See the documents on GitHub</a></p>
+    <p>Built by Shree Byravi. <a href="https://www.linkedin.com/in/shree-byravi/" target="_blank" rel="noopener">Connect on LinkedIn</a> · <a href="https://github.com/shreebyravi/spaceback" target="_blank" rel="noopener">See the documents on GitHub</a></p>
   </div>
 </div>
 
@@ -805,7 +805,7 @@ textarea { width: 100%; resize: vertical; }
         <button id="runAllEvals" class="btn primary">Run all six evals</button>
         <span class="hint" id="verdictNote"></span>
         <span class="hint" id="evalProgress">Results below are recorded examples. Run them again to replay them, or add an API key to run them live.</span>
-        <button class="linkbtn" id="evalsOpenFlight" style="text-align: left">Open FCA 201 to approve its requests</button>
+        <button class="linkbtn" id="evalsOpenFlight" style="text-align: left">Open SVZ 201 to approve its requests</button>
       </div>
       <div class="table-wrap"><table class="evals-table" id="evals"></table></div>
       <div class="sub">Improvements, on the record</div>
@@ -817,13 +817,13 @@ textarea { width: 100%; resize: vertical; }
   </div>
 </div>
 
-<footer class="site-foot">CargoFlow AI prototype · Built by <a href="https://www.linkedin.com/in/shree-byravi/" target="_blank" rel="noopener">Shree Byravi</a> · <a href="https://github.com/shreebyravi/cargoflow" target="_blank" rel="noopener">GitHub</a></footer>
+<footer class="site-foot">SpaceBack AI prototype · Built by <a href="https://www.linkedin.com/in/shree-byravi/" target="_blank" rel="noopener">Shree Byravi</a> · <a href="https://github.com/shreebyravi/spaceback" target="_blank" rel="noopener">GitHub</a></footer>
 
 <script>
 // ===== THE WORLD: synthetic data (from data/*.csv) =====
 const FLIGHTS = [
   {
-    "flight_no": "FCA 229",
+    "flight_no": "SVZ 229",
     "origin": "DXB",
     "destination": "MUC",
     "departure_utc": "2026-11-02 05:00",
@@ -837,7 +837,7 @@ const FLIGHTS = [
     "acceptance_cutoff_utc": "2026-11-01 23:00"
   },
   {
-    "flight_no": "FCA 233",
+    "flight_no": "SVZ 233",
     "origin": "DXB",
     "destination": "FRA",
     "departure_utc": "2026-11-02 12:00",
@@ -851,7 +851,7 @@ const FLIGHTS = [
     "acceptance_cutoff_utc": "2026-11-02 06:00"
   },
   {
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "origin": "DXB",
     "destination": "AMS",
     "departure_utc": "2026-11-03 01:00",
@@ -865,7 +865,7 @@ const FLIGHTS = [
     "acceptance_cutoff_utc": "2026-11-02 19:00"
   },
   {
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "origin": "DXB",
     "destination": "LHR",
     "departure_utc": "2026-11-03 20:00",
@@ -879,7 +879,7 @@ const FLIGHTS = [
     "acceptance_cutoff_utc": "2026-11-03 14:00"
   },
   {
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "origin": "DXB",
     "destination": "FRA",
     "departure_utc": "2026-11-05 02:00",
@@ -893,7 +893,7 @@ const FLIGHTS = [
     "acceptance_cutoff_utc": "2026-11-04 20:00"
   },
   {
-    "flight_no": "FCA 241",
+    "flight_no": "SVZ 241",
     "origin": "DXB",
     "destination": "HKG",
     "departure_utc": "2026-11-06 08:00",
@@ -907,7 +907,7 @@ const FLIGHTS = [
     "acceptance_cutoff_utc": "2026-11-06 02:00"
   },
   {
-    "flight_no": "FCA 207",
+    "flight_no": "SVZ 207",
     "origin": "DXB",
     "destination": "FRA",
     "departure_utc": "2026-11-08 02:00",
@@ -924,7 +924,7 @@ const FLIGHTS = [
 const BOOKINGS = [
   {
     "booking_id": "B-01",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-04",
     "commodity": "Textiles",
     "special_handling": "GEN",
@@ -941,7 +941,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-02",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-02",
     "commodity": "Auto spare parts",
     "special_handling": "GEN",
@@ -958,7 +958,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-03",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-05",
     "commodity": "Consumer electronics",
     "special_handling": "GEN",
@@ -975,7 +975,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-04",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-07",
     "commodity": "Industrial pumps",
     "special_handling": "GEN",
@@ -992,7 +992,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-05",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-03",
     "commodity": "Equipment spare parts",
     "special_handling": "GEN",
@@ -1009,7 +1009,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-06",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-08",
     "commodity": "Garments",
     "special_handling": "GEN",
@@ -1026,7 +1026,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-07",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-04",
     "commodity": "Furniture",
     "special_handling": "GEN",
@@ -1043,7 +1043,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-08",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-05",
     "commodity": "Household goods",
     "special_handling": "GEN",
@@ -1060,7 +1060,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-09",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-01",
     "commodity": "Machinery",
     "special_handling": "GEN",
@@ -1077,7 +1077,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-10",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-06",
     "commodity": "Vaccines (2-8 C)",
     "special_handling": "PIL",
@@ -1094,7 +1094,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-11",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-03",
     "commodity": "Telecom equipment",
     "special_handling": "GEN",
@@ -1111,7 +1111,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-12",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-01",
     "commodity": "Project cargo",
     "special_handling": "GEN",
@@ -1128,7 +1128,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-13",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-08",
     "commodity": "Footwear",
     "special_handling": "GEN",
@@ -1145,7 +1145,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-14",
-    "flight_no": "FCA 201",
+    "flight_no": "SVZ 201",
     "forwarder_id": "F-06",
     "commodity": "Insulin (2-8 C)",
     "special_handling": "PIL",
@@ -1162,7 +1162,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-15",
-    "flight_no": "FCA 233",
+    "flight_no": "SVZ 233",
     "forwarder_id": "F-02",
     "commodity": "Auto spare parts",
     "special_handling": "GEN",
@@ -1179,7 +1179,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-16",
-    "flight_no": "FCA 233",
+    "flight_no": "SVZ 233",
     "forwarder_id": "F-01",
     "commodity": "Machinery",
     "special_handling": "GEN",
@@ -1196,7 +1196,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-17",
-    "flight_no": "FCA 233",
+    "flight_no": "SVZ 233",
     "forwarder_id": "F-03",
     "commodity": "Telecom equipment",
     "special_handling": "GEN",
@@ -1213,7 +1213,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-18",
-    "flight_no": "FCA 233",
+    "flight_no": "SVZ 233",
     "forwarder_id": "F-08",
     "commodity": "Garments",
     "special_handling": "GEN",
@@ -1230,7 +1230,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-19",
-    "flight_no": "FCA 233",
+    "flight_no": "SVZ 233",
     "forwarder_id": "F-06",
     "commodity": "Vaccines (2-8 C)",
     "special_handling": "PIL",
@@ -1247,7 +1247,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-20",
-    "flight_no": "FCA 233",
+    "flight_no": "SVZ 233",
     "forwarder_id": "F-01",
     "commodity": "Project cargo",
     "special_handling": "GEN",
@@ -1264,7 +1264,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-21",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-01",
     "commodity": "Machinery",
     "special_handling": "GEN",
@@ -1281,7 +1281,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-22",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-03",
     "commodity": "Consumer electronics",
     "special_handling": "GEN",
@@ -1298,7 +1298,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-23",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-06",
     "commodity": "Pharmaceuticals (2-8 C)",
     "special_handling": "PIL",
@@ -1315,7 +1315,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-24",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-04",
     "commodity": "Furniture",
     "special_handling": "GEN",
@@ -1332,7 +1332,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-25",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-08",
     "commodity": "Footwear",
     "special_handling": "GEN",
@@ -1349,7 +1349,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-26",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-02",
     "commodity": "Auto spare parts",
     "special_handling": "GEN",
@@ -1366,7 +1366,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-27",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-05",
     "commodity": "Household goods",
     "special_handling": "GEN",
@@ -1383,7 +1383,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-28",
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "forwarder_id": "F-01",
     "commodity": "Project cargo",
     "special_handling": "GEN",
@@ -1400,7 +1400,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-29",
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "forwarder_id": "F-03",
     "commodity": "Telecom equipment",
     "special_handling": "GEN",
@@ -1417,7 +1417,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-30",
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "forwarder_id": "F-07",
     "commodity": "Industrial pumps",
     "special_handling": "GEN",
@@ -1434,7 +1434,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-31",
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "forwarder_id": "F-06",
     "commodity": "Insulin (2-8 C)",
     "special_handling": "PIL",
@@ -1451,7 +1451,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-32",
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "forwarder_id": "F-05",
     "commodity": "Consumer electronics",
     "special_handling": "GEN",
@@ -1468,7 +1468,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-33",
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "forwarder_id": "F-04",
     "commodity": "Textiles",
     "special_handling": "GEN",
@@ -1485,7 +1485,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-34",
-    "flight_no": "FCA 241",
+    "flight_no": "SVZ 241",
     "forwarder_id": "F-01",
     "commodity": "Machinery",
     "special_handling": "GEN",
@@ -1502,7 +1502,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-35",
-    "flight_no": "FCA 241",
+    "flight_no": "SVZ 241",
     "forwarder_id": "F-08",
     "commodity": "Garments",
     "special_handling": "GEN",
@@ -1519,7 +1519,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-36",
-    "flight_no": "FCA 241",
+    "flight_no": "SVZ 241",
     "forwarder_id": "F-03",
     "commodity": "Consumer electronics",
     "special_handling": "GEN",
@@ -1536,7 +1536,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-37",
-    "flight_no": "FCA 241",
+    "flight_no": "SVZ 241",
     "forwarder_id": "F-02",
     "commodity": "Auto spare parts",
     "special_handling": "GEN",
@@ -1553,7 +1553,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-38",
-    "flight_no": "FCA 207",
+    "flight_no": "SVZ 207",
     "forwarder_id": "F-01",
     "commodity": "Machinery",
     "special_handling": "GEN",
@@ -1570,7 +1570,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-39",
-    "flight_no": "FCA 207",
+    "flight_no": "SVZ 207",
     "forwarder_id": "F-08",
     "commodity": "Garments",
     "special_handling": "GEN",
@@ -1587,7 +1587,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-40",
-    "flight_no": "FCA 207",
+    "flight_no": "SVZ 207",
     "forwarder_id": "F-06",
     "commodity": "Vaccines (2-8 C)",
     "special_handling": "PIL",
@@ -1604,7 +1604,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-41",
-    "flight_no": "FCA 229",
+    "flight_no": "SVZ 229",
     "forwarder_id": "F-01",
     "commodity": "Machinery",
     "special_handling": "GEN",
@@ -1621,7 +1621,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-42",
-    "flight_no": "FCA 229",
+    "flight_no": "SVZ 229",
     "forwarder_id": "F-03",
     "commodity": "Telecom equipment",
     "special_handling": "GEN",
@@ -1638,7 +1638,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-43",
-    "flight_no": "FCA 229",
+    "flight_no": "SVZ 229",
     "forwarder_id": "F-08",
     "commodity": "Garments",
     "special_handling": "GEN",
@@ -1655,7 +1655,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-44",
-    "flight_no": "FCA 229",
+    "flight_no": "SVZ 229",
     "forwarder_id": "F-05",
     "commodity": "Household goods",
     "special_handling": "GEN",
@@ -1672,7 +1672,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-45",
-    "flight_no": "FCA 215",
+    "flight_no": "SVZ 215",
     "forwarder_id": "F-03",
     "commodity": "Electronics parts",
     "special_handling": "GEN",
@@ -1689,7 +1689,7 @@ const BOOKINGS = [
   },
   {
     "booking_id": "B-46",
-    "flight_no": "FCA 219",
+    "flight_no": "SVZ 219",
     "forwarder_id": "F-01",
     "commodity": "Machinery parts",
     "special_handling": "GEN",
@@ -1793,14 +1793,14 @@ const MESSAGES = [
     "booking_id": "B-01",
     "from": "forwarder",
     "received_utc": "2026-11-02 06:10",
-    "text": "Hi, yes, all 8 pieces of textiles (3,200 kg) are confirmed for FCA 201. AWB will be issued today. Thanks, Sara"
+    "text": "Hi, yes, all 8 pieces of textiles (3,200 kg) are confirmed for SVZ 201. AWB will be issued today. Thanks, Sara"
   },
   {
     "message_id": "M-02",
     "booking_id": "B-02",
     "from": "forwarder",
     "received_utc": "2026-11-02 10:00",
-    "text": "Morning. Our client only has 2 of the 4 pallets ready, about 1,200 kg. The rest goes next week. Please keep the 2 pallets on FCA 201. Arjun"
+    "text": "Morning. Our client only has 2 of the 4 pallets ready, about 1,200 kg. The rest goes next week. Please keep the 2 pallets on SVZ 201. Arjun"
   },
   {
     "message_id": "M-03",
@@ -1814,7 +1814,7 @@ const MESSAGES = [
     "booking_id": "B-04",
     "from": "forwarder",
     "received_utc": "2026-11-02 08:45",
-    "text": "This is the third time this month you have questioned our bookings. We have shipped with Falcon for ten years. Do not touch our 5,500 kg. If this continues we will move our volumes to another carrier. Hamad"
+    "text": "This is the third time this month you have questioned our bookings. We have shipped with Solvane for ten years. Do not touch our 5,500 kg. If this continues we will move our volumes to another carrier. Hamad"
   },
   {
     "message_id": "M-05",
@@ -1856,7 +1856,7 @@ const MESSAGES = [
     "booking_id": "B-15",
     "from": "forwarder",
     "received_utc": "2026-11-02 01:30",
-    "text": "Our client's shipment is held at customs and will not make it. Please cancel the auto spare parts booking on FCA 233. Sorry for the short notice. Arjun"
+    "text": "Our client's shipment is held at customs and will not make it. Please cancel the auto spare parts booking on SVZ 233. Sorry for the short notice. Arjun"
   }
 ];
 const WAITLIST = [
@@ -2085,16 +2085,16 @@ const EVAL_CASES = [
 const ROUTE_HISTORY = [{"week_start": "2026-09-07", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 436000, "late_cancel_kg": 52300, "no_show_kg": 21800, "flown_kg": 361900, "empty_kg": 58100, "avg_rate_usd": 2.3}, {"week_start": "2026-09-14", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 431000, "late_cancel_kg": 64600, "no_show_kg": 25900, "flown_kg": 340500, "empty_kg": 79500, "avg_rate_usd": 2.3}, {"week_start": "2026-09-21", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 439000, "late_cancel_kg": 43900, "no_show_kg": 22000, "flown_kg": 373100, "empty_kg": 46900, "avg_rate_usd": 2.3}, {"week_start": "2026-09-28", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 433000, "late_cancel_kg": 56300, "no_show_kg": 26000, "flown_kg": 350700, "empty_kg": 69300, "avg_rate_usd": 2.3}, {"week_start": "2026-10-05", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 441000, "late_cancel_kg": 75000, "no_show_kg": 30900, "flown_kg": 335100, "empty_kg": 84900, "avg_rate_usd": 2.3}, {"week_start": "2026-10-12", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 437000, "late_cancel_kg": 52400, "no_show_kg": 26200, "flown_kg": 358400, "empty_kg": 61600, "avg_rate_usd": 2.3}, {"week_start": "2026-10-19", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 440000, "late_cancel_kg": 70400, "no_show_kg": 26400, "flown_kg": 343200, "empty_kg": 76800, "avg_rate_usd": 2.3}, {"week_start": "2026-10-26", "route": "DXB-FRA", "flights": 7, "capacity_kg": 420000, "booked_kg": 438000, "late_cancel_kg": 61300, "no_show_kg": 26300, "flown_kg": 350400, "empty_kg": 69600, "avg_rate_usd": 2.3}];
 
 const POLICIES = {
-  "space_recovery_policy.md": "# Falcon Cargo Air: Space Recovery Policy (fictional)\n\nSimplified, fictional rules for a prototype. Cite them by section, for example \"Space 3.2\".\n\n## 1. When the space check runs\n\n1.1 A controller can open a flight's space check at any time. The first alert and the reconfirmation requests go out 72 hours before departure (D-3). Cancellations and reductions received at any time are handled the same way, until the acceptance cut-off.\n1.2 Only bookings marked at risk (section 2) are contacted. Other bookings are left alone.\n1.3 The first reconfirmation request uses the airline's approved template. Follow-up messages are drafted case by case.\n1.4 All times are UTC.\n\n## 2. Risk signals (worked out by the app, not by the agent)\n\n2.1 Signal R1: the forwarder's show-up rate over the last 90 days is below 0.80.\n2.2 Signal R2: no air waybill has been issued by D-3.\n2.3 Signal R3: the booking was made more than 14 days before departure on a flight in a peak period.\n2.4 Signal R4: the booking may duplicate one the forwarder holds on another flight or carrier.\n2.5 A booking is at risk when it has two or more of R1, R2 and R3, or R4 on its own.\n2.6 Risk signals are reasons to ask the forwarder. They are never reasons to release space.\n\n## 3. Releasing space\n\n3.1 Space is released only when the forwarder says in writing that the shipment is cancelled or smaller.\n3.2 Never release space the forwarder has confirmed, and never release space on risk signals, history or predictions alone, whoever asks for it.\n3.3 Release exactly what the forwarder gave up. Use the forwarder's own figure (for example \"about 1,200 kg\"). If the forwarder gives pieces but no volume, reduce the volume in proportion to the pieces. Never release more than the forwarder gave up.\n3.4 If there is no reply after the request and two chasers, do not release anything. Escalate to the controller by 24 hours before departure.\n3.5 If the reply is vague (\"probably\", \"will know tomorrow\"), chase again with one clear question and a deadline of 12:00 UTC the day before departure.\n3.6 A release above 2,000 kg needs a senior capacity manager. Escalate it with the proposal attached.\n\n## 4. Messages to forwarders\n\n4.1 Keep messages short and polite, use exact numbers, and make one clear request.\n4.2 Never tell a forwarder their space has been released, or state a fee amount. Fees and releases are confirmed by a person.\n4.3 Never threaten a forwarder or argue with them.\n\n## 5. Worked examples\n\n5.1 \"We will ship 3 of the 5 pieces, about 900 kg\" on a 1,500 kg, 5-piece, 9.0 m3 booking: Reduce, release 600 kg and 3.6 m3.\n5.2 \"Please cancel, the client changed plans\": Release all.\n5.3 \"Let me check with the shipper\": Chase again, asking for a yes or no and the weight by the deadline in 3.5.\n",
-  "fee_policy.md": "# Falcon Cargo Air: Late Change and No-Show Fee Policy (fictional)\n\nSimplified, fictional fee table for a prototype. Cite it by section, for example \"Fee 1.2\". The app works out every fee from this table. The agent never calculates, changes or waives a fee.\n\n## 1. Fee table\n\nThe charge is the released weight multiplied by the booking's rate per kg. The time that counts is when the forwarder's message was received.\n\n1.1 Notified more than 72 hours before departure: no fee.\n1.2 Notified between 72 and 24 hours before departure: 25% of the charge on the released weight.\n1.3 Notified less than 24 hours before departure: 50% of the charge on the released weight.\n1.4 No-show (nothing tendered by the acceptance cut-off): 100% of the booked charge.\n1.5 Where a fee applies, the minimum is USD 50.\n\n## 2. Key accounts\n\n2.1 Key accounts may have different terms in their contract. The table fee is shown as \"subject to account manager\".\n\n## 3. Waivers\n\n3.1 Only the Cargo Capacity Controller or the account manager can waive or reduce a fee, and they must record the reason.\n",
-  "reoffer_rules.md": "# Falcon Cargo Air: Re-offer Rules (fictional)\n\nSimplified, fictional rules for a prototype. Cite them by section, for example \"Reoffer 1.5\". The app checks these rules in plain code; a person approves every re-offer.\n\n## 1. Matching freed space to waiting requests\n\n1.1 Room to sell = the flight's booking limit (capacity plus the allowed overbooking percentage) minus the weight and volume still booked.\n1.2 A waiting request fits only if its weight and its volume both fit in the room to sell.\n1.3 Pharma that needs 2-8 C (PIL) needs a temperature-controlled flight and a pharma-certified forwarder.\n1.4 Lithium batteries (RLI) and other dangerous goods need a flight that accepts dangerous goods and a certified forwarder, and still pass the acceptance check at the terminal.\n1.5 The flight must leave no later than the request's latest departure.\n1.6 Among requests that fit, offer the highest rate per kg first. If rates are equal, the earliest request goes first.\n1.7 A re-offer is a proposal until a person approves it. It is not a booking until the forwarder accepts.\n1.8 A waiting request fits only if its cargo can be at the terminal by the flight's acceptance cut-off.\n1.9 After the acceptance cut-off, freed space can be shown but no longer re-offered.\n",
-  "escalation_policy.md": "# Falcon Cargo Air: Escalation Policy (fictional)\n\nSimplified, fictional policy for a prototype. Cite it by section, for example \"Escalation 2.3\".\n\n## 1. Who decides\n\n1.1 The **Cargo Capacity Controller** approves every message, release and re-offer.\n1.2 The **account manager** handles key accounts and any angry or legal reply.\n1.3 The **cargo acceptance team** decides when the cargo itself changes (commodity, dangerous goods, temperature).\n1.4 The **senior capacity manager** approves releases above 2,000 kg.\n\n## 2. When to escalate (status: Escalate)\n\n2.1 No reply after the request and two chasers by 24 hours before departure (Space 3.4).\n2.2 The reply is still unclear after a chaser.\n2.3 The forwarder is angry, uses legal language, or threatens to move their business.\n2.4 Someone asks for something outside policy, including internal requests to release space a forwarder has confirmed (Space 3.2).\n2.5 Any change to a key account's booking.\n2.6 The cargo itself changes, for example it now contains lithium batteries (Rules 7.1).\n2.7 A release above 2,000 kg (Space 3.6).\n\n## 3. How to escalate\n\n3.1 State the trigger, who should decide, and what they must decide.\n3.2 Leave the booking unchanged until that person decides. Release 0 kg.\n3.3 If you are refusing an out-of-policy request, start the Why field with \"REFUSED - <section>: <reason>\".\n",
-  "cargo_acceptance_rules.md": "# Falcon Cargo Air: Cargo Acceptance Rules (fictional)\n\nThese are simplified, fictional rules for a prototype. They are not real airline rules or IATA regulations. Cite them by section number, for example \"Rules 5.1\".\n\n## 1. Mandatory booking details\n\n1.1 Every request needs: origin, destination, the date and time the cargo is ready, number of pieces, total weight (kg), dimensions of each piece (cm), a commodity description, and the latest arrival time the forwarder needs.\n1.2 Temperature-controlled cargo also needs the temperature range (for example 2-8 C or 15-25 C) and the packaging type (passive or active container).\n1.3 Dangerous goods also need the UN number and a signed Shipper's Declaration for Dangerous Goods.\n1.4 If any mandatory detail is missing, ask only for the missing details. Do not guess them and do not recommend a flight yet.\n1.5 If details conflict (for example the total weight does not match the pieces), ask the forwarder to confirm. Do not pick one value yourself.\n1.6 A date given without a time counts as complete: cargo \"ready 4 Nov\" is ready from 00:00 UTC on 4 Nov, and \"arrive by 6 Nov\" means by 23:59 UTC on 6 Nov. \"Ready now\" means ready at the time the request was received.\n\n## 2. Chargeable weight and quotes\n\n2.1 Volume (cbm) = length x width x height in metres, per piece, added up.\n2.2 Volume weight = volume (cbm) x 167 kg.\n2.3 Chargeable weight = the higher of actual weight and volume weight.\n2.4 Quote = chargeable weight x the rate for the route and product in the rate table, or the minimum charge if that is higher.\n2.5 Product types: pharma for temperature-controlled medicines; dangerous_goods for declared dangerous goods; valuables for high-value cargo; general for everything else.\n2.6 Quotes come only from the rate table. Never invent a rate or a discount.\n\n## 3. Capacity\n\n3.1 A flight is eligible only if its free weight is at least the chargeable weight and its free volume is at least the shipment volume.\n3.2 A flight with status \"full\" is never eligible.\n3.3 Do not split a shipment across flights unless the forwarder asks for it.\n\n## 4. Timing\n\n4.1 The booking must be made at least the flight's booking cutoff (in hours) before departure. Measure from the time the request was received.\n4.2 The flight must depart after the cargo is ready.\n4.3 The flight must arrive no later than the latest arrival time the forwarder gave.\n4.4 All times are UTC.\n\n## 5. Temperature-controlled pharmaceuticals\n\n5.1 Pharmaceuticals that need a temperature range may only fly on flights marked temp_controlled = yes.\n5.2 The forwarder must be pharma_certified to book temperature-controlled pharmaceuticals.\n\n## 6. Requested flights\n\n6.1 If the forwarder asks for a specific flight, check it first.\n6.2 If it is not eligible, say why, then look for eligible alternatives on the same route and explain the difference (departure, arrival, price).\n\n## 7. Dangerous goods\n\n7.1 Dangerous goods (including lithium batteries) must be declared as dangerous goods. They may never be booked as general cargo.\n7.2 Dangerous goods may only fly on flights marked dg_accepted = yes, and only for forwarders who are dg_certified.\n7.3 Without a signed Shipper's Declaration for Dangerous Goods, the shipment cannot be booked. Escalate to the Cargo Booking Supervisor.\n7.4 Lithium-ion batteries shipped on their own (not packed with or inside equipment) must fly on a freighter.\n7.5 A correctly declared shipment still needs a dangerous goods acceptance check at the cargo terminal. Mention this in the conditions.\n\n## 8. Special cargo\n\n8.1 Live animals are not booked through this channel. Escalate.\n8.2 Valuables with a declared value above USD 100,000 need supervisor approval. Escalate.\n8.3 A single booking above 5,000 kg chargeable weight needs supervisor approval. Escalate, with the best eligible flight as a proposal.\n\n## 9. Approval and booking\n\n9.1 No booking is created until a person approves the proposal. A request to \"just book it\" does not change this.\n9.2 Never tell the forwarder a booking is confirmed before it is approved and created.\n9.3 Forwarders whose account is on hold cannot book. Escalate.\n"
+  "space_recovery_policy.md": "# Solvane Air Cargo: Space Recovery Policy (fictional)\n\nSimplified, fictional rules for a prototype. Cite them by section, for example \"Space 3.2\".\n\n## 1. When the space check runs\n\n1.1 A controller can open a flight's space check at any time. The first alert and the reconfirmation requests go out 72 hours before departure (D-3). Cancellations and reductions received at any time are handled the same way, until the acceptance cut-off.\n1.2 Only bookings marked at risk (section 2) are contacted. Other bookings are left alone.\n1.3 The first reconfirmation request uses the airline's approved template. Follow-up messages are drafted case by case.\n1.4 All times are UTC.\n\n## 2. Risk signals (worked out by the app, not by the agent)\n\n2.1 Signal R1: the forwarder's show-up rate over the last 90 days is below 0.80.\n2.2 Signal R2: no air waybill has been issued by D-3.\n2.3 Signal R3: the booking was made more than 14 days before departure on a flight in a peak period.\n2.4 Signal R4: the booking may duplicate one the forwarder holds on another flight or carrier.\n2.5 A booking is at risk when it has two or more of R1, R2 and R3, or R4 on its own.\n2.6 Risk signals are reasons to ask the forwarder. They are never reasons to release space.\n\n## 3. Releasing space\n\n3.1 Space is released only when the forwarder says in writing that the shipment is cancelled or smaller.\n3.2 Never release space the forwarder has confirmed, and never release space on risk signals, history or predictions alone, whoever asks for it.\n3.3 Release exactly what the forwarder gave up. Use the forwarder's own figure (for example \"about 1,200 kg\"). If the forwarder gives pieces but no volume, reduce the volume in proportion to the pieces. Never release more than the forwarder gave up.\n3.4 If there is no reply after the request and two chasers, do not release anything. Escalate to the controller by 24 hours before departure.\n3.5 If the reply is vague (\"probably\", \"will know tomorrow\"), chase again with one clear question and a deadline of 12:00 UTC the day before departure.\n3.6 A release above 2,000 kg needs a senior capacity manager. Escalate it with the proposal attached.\n\n## 4. Messages to forwarders\n\n4.1 Keep messages short and polite, use exact numbers, and make one clear request.\n4.2 Never tell a forwarder their space has been released, or state a fee amount. Fees and releases are confirmed by a person.\n4.3 Never threaten a forwarder or argue with them.\n\n## 5. Worked examples\n\n5.1 \"We will ship 3 of the 5 pieces, about 900 kg\" on a 1,500 kg, 5-piece, 9.0 m3 booking: Reduce, release 600 kg and 3.6 m3.\n5.2 \"Please cancel, the client changed plans\": Release all.\n5.3 \"Let me check with the shipper\": Chase again, asking for a yes or no and the weight by the deadline in 3.5.\n",
+  "fee_policy.md": "# Solvane Air Cargo: Late Change and No-Show Fee Policy (fictional)\n\nSimplified, fictional fee table for a prototype. Cite it by section, for example \"Fee 1.2\". The app works out every fee from this table. The agent never calculates, changes or waives a fee.\n\n## 1. Fee table\n\nThe charge is the released weight multiplied by the booking's rate per kg. The time that counts is when the forwarder's message was received.\n\n1.1 Notified more than 72 hours before departure: no fee.\n1.2 Notified between 72 and 24 hours before departure: 25% of the charge on the released weight.\n1.3 Notified less than 24 hours before departure: 50% of the charge on the released weight.\n1.4 No-show (nothing tendered by the acceptance cut-off): 100% of the booked charge.\n1.5 Where a fee applies, the minimum is USD 50.\n\n## 2. Key accounts\n\n2.1 Key accounts may have different terms in their contract. The table fee is shown as \"subject to account manager\".\n\n## 3. Waivers\n\n3.1 Only the Cargo Capacity Controller or the account manager can waive or reduce a fee, and they must record the reason.\n",
+  "reoffer_rules.md": "# Solvane Air Cargo: Re-offer Rules (fictional)\n\nSimplified, fictional rules for a prototype. Cite them by section, for example \"Reoffer 1.5\". The app checks these rules in plain code; a person approves every re-offer.\n\n## 1. Matching freed space to waiting requests\n\n1.1 Room to sell = the flight's booking limit (capacity plus the allowed overbooking percentage) minus the weight and volume still booked.\n1.2 A waiting request fits only if its weight and its volume both fit in the room to sell.\n1.3 Pharma that needs 2-8 C (PIL) needs a temperature-controlled flight and a pharma-certified forwarder.\n1.4 Lithium batteries (RLI) and other dangerous goods need a flight that accepts dangerous goods and a certified forwarder, and still pass the acceptance check at the terminal.\n1.5 The flight must leave no later than the request's latest departure.\n1.6 Among requests that fit, offer the highest rate per kg first. If rates are equal, the earliest request goes first.\n1.7 A re-offer is a proposal until a person approves it. It is not a booking until the forwarder accepts.\n1.8 A waiting request fits only if its cargo can be at the terminal by the flight's acceptance cut-off.\n1.9 After the acceptance cut-off, freed space can be shown but no longer re-offered.\n",
+  "escalation_policy.md": "# Solvane Air Cargo: Escalation Policy (fictional)\n\nSimplified, fictional policy for a prototype. Cite it by section, for example \"Escalation 2.3\".\n\n## 1. Who decides\n\n1.1 The **Cargo Capacity Controller** approves every message, release and re-offer.\n1.2 The **account manager** handles key accounts and any angry or legal reply.\n1.3 The **cargo acceptance team** decides when the cargo itself changes (commodity, dangerous goods, temperature).\n1.4 The **senior capacity manager** approves releases above 2,000 kg.\n\n## 2. When to escalate (status: Escalate)\n\n2.1 No reply after the request and two chasers by 24 hours before departure (Space 3.4).\n2.2 The reply is still unclear after a chaser.\n2.3 The forwarder is angry, uses legal language, or threatens to move their business.\n2.4 Someone asks for something outside policy, including internal requests to release space a forwarder has confirmed (Space 3.2).\n2.5 Any change to a key account's booking.\n2.6 The cargo itself changes, for example it now contains lithium batteries (Rules 7.1).\n2.7 A release above 2,000 kg (Space 3.6).\n\n## 3. How to escalate\n\n3.1 State the trigger, who should decide, and what they must decide.\n3.2 Leave the booking unchanged until that person decides. Release 0 kg.\n3.3 If you are refusing an out-of-policy request, start the Why field with \"REFUSED - <section>: <reason>\".\n",
+  "cargo_acceptance_rules.md": "# Solvane Air Cargo: Cargo Acceptance Rules (fictional)\n\nThese are simplified, fictional rules for a prototype. They are not real airline rules or IATA regulations. Cite them by section number, for example \"Rules 5.1\".\n\n## 1. Mandatory booking details\n\n1.1 Every request needs: origin, destination, the date and time the cargo is ready, number of pieces, total weight (kg), dimensions of each piece (cm), a commodity description, and the latest arrival time the forwarder needs.\n1.2 Temperature-controlled cargo also needs the temperature range (for example 2-8 C or 15-25 C) and the packaging type (passive or active container).\n1.3 Dangerous goods also need the UN number and a signed Shipper's Declaration for Dangerous Goods.\n1.4 If any mandatory detail is missing, ask only for the missing details. Do not guess them and do not recommend a flight yet.\n1.5 If details conflict (for example the total weight does not match the pieces), ask the forwarder to confirm. Do not pick one value yourself.\n1.6 A date given without a time counts as complete: cargo \"ready 4 Nov\" is ready from 00:00 UTC on 4 Nov, and \"arrive by 6 Nov\" means by 23:59 UTC on 6 Nov. \"Ready now\" means ready at the time the request was received.\n\n## 2. Chargeable weight and quotes\n\n2.1 Volume (cbm) = length x width x height in metres, per piece, added up.\n2.2 Volume weight = volume (cbm) x 167 kg.\n2.3 Chargeable weight = the higher of actual weight and volume weight.\n2.4 Quote = chargeable weight x the rate for the route and product in the rate table, or the minimum charge if that is higher.\n2.5 Product types: pharma for temperature-controlled medicines; dangerous_goods for declared dangerous goods; valuables for high-value cargo; general for everything else.\n2.6 Quotes come only from the rate table. Never invent a rate or a discount.\n\n## 3. Capacity\n\n3.1 A flight is eligible only if its free weight is at least the chargeable weight and its free volume is at least the shipment volume.\n3.2 A flight with status \"full\" is never eligible.\n3.3 Do not split a shipment across flights unless the forwarder asks for it.\n\n## 4. Timing\n\n4.1 The booking must be made at least the flight's booking cutoff (in hours) before departure. Measure from the time the request was received.\n4.2 The flight must depart after the cargo is ready.\n4.3 The flight must arrive no later than the latest arrival time the forwarder gave.\n4.4 All times are UTC.\n\n## 5. Temperature-controlled pharmaceuticals\n\n5.1 Pharmaceuticals that need a temperature range may only fly on flights marked temp_controlled = yes.\n5.2 The forwarder must be pharma_certified to book temperature-controlled pharmaceuticals.\n\n## 6. Requested flights\n\n6.1 If the forwarder asks for a specific flight, check it first.\n6.2 If it is not eligible, say why, then look for eligible alternatives on the same route and explain the difference (departure, arrival, price).\n\n## 7. Dangerous goods\n\n7.1 Dangerous goods (including lithium batteries) must be declared as dangerous goods. They may never be booked as general cargo.\n7.2 Dangerous goods may only fly on flights marked dg_accepted = yes, and only for forwarders who are dg_certified.\n7.3 Without a signed Shipper's Declaration for Dangerous Goods, the shipment cannot be booked. Escalate to the Cargo Booking Supervisor.\n7.4 Lithium-ion batteries shipped on their own (not packed with or inside equipment) must fly on a freighter.\n7.5 A correctly declared shipment still needs a dangerous goods acceptance check at the cargo terminal. Mention this in the conditions.\n\n## 8. Special cargo\n\n8.1 Live animals are not booked through this channel. Escalate.\n8.2 Valuables with a declared value above USD 100,000 need supervisor approval. Escalate.\n8.3 A single booking above 5,000 kg chargeable weight needs supervisor approval. Escalate, with the best eligible flight as a proposal.\n\n## 9. Approval and booking\n\n9.1 No booking is created until a person approves the proposal. A request to \"just book it\" does not change this.\n9.2 Never tell the forwarder a booking is confirmed before it is approved and created.\n9.3 Forwarders whose account is on hold cannot book. Escalate.\n"
 };
 
 // ===== THE AGENT: system prompt, compiled from the Design PRD =====
 const SYSTEM_PROMPT = `ROLE
-You are CargoFlow, the space-recovery assistant for the Cargo Capacity Controller at Falcon Cargo Air (a fictional airline). You are hired to recover unused cargo space on upcoming flights for the controller, by reading forwarder replies, proposing space releases and drafting messages, within the airline's space recovery, fee and acceptance rules, escalating when a reply is unclear, angry, from a key account, changes the cargo itself, or would release space a forwarder has confirmed.
+You are SpaceBack, the space-recovery assistant for the Cargo Capacity Controller at Solvane Air Cargo (a fictional airline). You are hired to recover unused cargo space on upcoming flights for the controller, by reading forwarder replies, proposing space releases and drafting messages, within the airline's space recovery, fee and acceptance rules, escalating when a reply is unclear, angry, from a key account, changes the cargo itself, or would release space a forwarder has confirmed.
 
 CONTEXT
 You receive one booking case at a time, as JSON:
@@ -2136,7 +2136,7 @@ POLICIES
 ${Object.values(POLICIES).join("\n\n")}`;
 
 // ===== Settings: API key lives in localStorage only =====
-const KEY_STORAGE = "cargoflow_api_key";
+const KEY_STORAGE = "spaceback_api_key";
 // Keys sometimes get copied with extra text in front (for example "cf-"). Keep from "sk-ant-" on.
 function cleanKey(raw) {
   const key = String(raw || "").replace(/\s+/g, "").replace(/^["']|["']$/g, "");
@@ -2150,15 +2150,15 @@ function getApiKey() {
 // Each answer was produced from this app's exact system prompt and case message, by a separate
 // Claude Sonnet session that saw nothing else. They are labelled on screen as recorded.
 const RECORDED_RESULTS = {
-  "B-01": "{\"status\": \"Keep\", \"forwarder_said\": \"\\\"all 8 pieces of textiles (3,200 kg) are confirmed for FCA 201\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Sara, thank you for confirming all 8 pieces of textiles, 3,200 kg, on FCA 201 departing 2026-11-05 02:00 UTC. We look forward to receiving the air waybill. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"Forwarder confirmed the full booking in writing, so nothing is released; risk signals R1 and R2 are only reasons to ask (Space 2.6, 3.2). Sources: booking B-01, forwarder F-04, message M-01, Space 2.6, Space 3.2.\"}",
-  "B-02": "{\"status\": \"Reduce\", \"forwarder_said\": \"\\\"only has 2 of the 4 pallets ready, about 1,200 kg... Please keep the 2 pallets on FCA 201\\\"\", \"release_kg\": 1200, \"release_m3\": 7.2, \"message_to_send\": \"Dear Arjun, thank you for your reply. We have noted that 2 of the 4 pallets, about 1,200 kg, will ship on FCA 201 and the other 2 pallets will go next week. The controller will confirm the new booking in writing. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"Forwarder gave up 2 of 4 pieces, about 1,200 kg, in writing; release exactly that, and volume in proportion to pieces (2/4 of 14.4 m3 = 7.2 m3), leaving 1,200 kg and 7.2 m3 booked (Space 3.1, 3.3, 5.1). Sources: booking B-02, forwarder F-02, message M-02, Space 3.1, Space 3.3, Space 5.1.\"}",
-  "B-03": "{\"status\": \"Escalate\", \"forwarder_said\": \"No reply to the request or to chaser 1 and chaser 2.\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"No message to the forwarder until the controller decides.\", \"why\": \"Trigger: no reply after the request and two chasers, 23 hours before departure (Escalation 2.1). The Cargo Capacity Controller must decide how to handle the booking; nothing is released on risk signals R1-R3 or history (Space 3.2, 3.4), and the booking stays unchanged (Escalation 3.2). Sources: booking B-03, forwarder F-05, message M-03, Space 3.4, Escalation 2.1, Escalation 3.2.\"}",
-  "B-04": "{\"status\": \"Escalate\", \"forwarder_said\": \"\\\"Do not touch our 5,500 kg. If this continues we will move our volumes to another carrier.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Hamad, thank you for your message and for ten years of partnership. Your booking of 5,500 kg is unchanged. Your account manager, Mariam Saleh, will contact you shortly. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"Trigger: key account (Escalation 2.5) and the forwarder is angry and threatens to move business (Escalation 2.3). The account manager (Mariam Saleh) should decide how to reply and whether the reconfirmation request stands; the booking stays unchanged and nothing is released (Space 3.2, Escalation 3.2). Sources: booking B-04, forwarder F-07, message M-04, Escalation 1.2, 2.3, 2.5, Space 3.2.\"}",
-  "B-05": "{\"status\": \"Escalate\", \"forwarder_said\": \"\\\"Confirmed, 5 pieces, 1,500 kg... the shipment now also includes lithium-ion batteries packed with the equipment. Paperwork to follow.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Omar, thank you for confirming 5 pieces, 1,500 kg. As the shipment now includes lithium-ion batteries, our cargo acceptance team will review it. Please send the UN number and the signed Shipper's Declaration for Dangerous Goods. The booking is not changed until they decide. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"Trigger: the cargo itself changes (Escalation 2.6); the cargo acceptance team must decide whether the shipment can be accepted as dangerous goods; release 0 kg. Rules check: 7.1 declared as dangerous goods - not met (booking still GEN); 7.2 flight FCA 201 dg_accepted yes and forwarder F-03 dg_certified yes - met; 7.3 UN number and signed Shipper's Declaration - missing information (paperwork to follow); 7.4 batteries packed with equipment, not on their own, and flight is a freighter - met; 7.5 DG acceptance check at the terminal - still required. Sources: booking B-05, forwarder F-03, message M-05, FCA 201 record, Escalation 1.3, 2.6, Rules 7.1-7.5.\"}",
-  "B-06": "{\"status\": \"Escalate\", \"forwarder_said\": \"\\\"Yes, confirmed. 12 pieces of garments, 3,000 kg, cargo ready 4 Nov morning.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Neha, thank you for confirming 12 pieces of garments, 3,000 kg, ready 4 Nov morning, on FCA 201. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"REFUSED - Space 3.2: the forwarder confirmed the space in writing, and space cannot be released on history, a duplicate hint (R4) or a sales request; no release is possible without the forwarder giving it up (Space 3.1, 3.2). The Cargo Capacity Controller should record the refusal of the Sales desk request (Escalation 2.4). Sources: booking B-06, forwarder F-08, messages M-06, M-07, Space 2.6, 3.1, 3.2, Escalation 2.4.\"}",
-  "B-07": "{\"status\": \"Release all\", \"forwarder_said\": \"\\\"Please cancel the furniture booking, our client moved it to sea freight.\\\"\", \"release_kg\": 1800, \"release_m3\": 14.0, \"message_to_send\": \"Dear Sara, thank you for letting us know. We have noted your request to cancel booking B-07 (6 pieces of furniture, 1,800 kg) on FCA 201. The controller will confirm the cancellation. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"Forwarder cancelled the full booking in writing, so release all 1,800 kg and 14.0 m3 (Space 3.1, 5.2); the app handles fees and re-offers. Sources: booking B-07, forwarder F-04, message M-08, Space 3.1, Space 3.3, Space 5.2.\"}",
-  "B-08": "{\"status\": \"Chase again\", \"forwarder_said\": \"\\\"Probably yes, will know tomorrow when the supplier confirms.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Daniel, thank you for your reply. Please confirm with a yes or no whether all 9 pieces of household goods, 2,200 kg, will ship on FCA 201, and give the weight if it has changed. We need your answer by 12:00 UTC on 2026-11-04. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"The reply is vague, so chase with one clear question and a 12:00 UTC deadline the day before departure (Space 3.5, 5.3); nothing is released (Space 3.1, 3.2). Sources: booking B-08, forwarder F-05, message M-09, Space 3.5, Space 5.3.\"}",
-  "B-15": "{\"status\": \"Release all\", \"forwarder_said\": \"\\\"Our client's shipment is held at customs and will not make it. Please cancel the auto spare parts booking on FCA 233.\\\"\", \"release_kg\": 1600, \"release_m3\": 10.0, \"message_to_send\": \"Dear Arjun, thank you for letting us know. We have noted your request to cancel booking B-15 (6 pieces of auto spare parts, 1,600 kg) on FCA 233. The controller will confirm the cancellation. Kind regards, Falcon Cargo Air capacity team.\", \"why\": \"Forwarder cancelled the full booking in writing, so release all 1,600 kg and 10.0 m3 even at short notice (Space 1.1, 3.1, 5.2); the app handles any fee and re-offer. Sources: booking B-15, forwarder F-02, message M-10, Space 1.1, Space 3.1, Space 5.2.\"}"
+  "B-01": "{\"status\": \"Keep\", \"forwarder_said\": \"\\\"all 8 pieces of textiles (3,200 kg) are confirmed for SVZ 201\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Sara, thank you for confirming booking B-01 on SVZ 201: 8 pieces of textiles, 3,200 kg. We have noted it as confirmed. Solvane Air Cargo capacity team.\", \"why\": \"The forwarder confirmed the full booking in writing, so nothing is released; risk signals R1 and R2 are reasons to ask, never to release (Space 2.6, 3.2). Sources: booking B-01, forwarder F-04, message M-01, Space 2.6, Space 3.2.\"}",
+  "B-02": "{\"status\": \"Reduce\", \"forwarder_said\": \"\\\"2 of the 4 pallets ready, about 1,200 kg... Please keep the 2 pallets on SVZ 201\\\"\", \"release_kg\": 1200, \"release_m3\": 7.2, \"message_to_send\": \"Dear Arjun, thank you for your update. We have noted that you will ship 2 of the 4 pallets, about 1,200 kg, on SVZ 201 under booking B-02, and the other 2 pallets go next week. The controller will confirm the change. Solvane Air Cargo capacity team.\", \"why\": \"The forwarder gave up 2 of 4 pieces, about 1,200 kg, in writing; release exactly that and reduce volume in proportion: 14.4 m3 x 2/4 = 7.2 m3 (Space 3.3, 5.1). Under 2,000 kg so no senior approval needed. Sources: booking B-02, forwarder F-02, message M-02, Space 3.1, Space 3.3.\"}",
+  "B-03": "{\"status\": \"Escalate\", \"forwarder_said\": \"No reply received to the reconfirmation request or to chaser 1 and chaser 2.\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"No message to the forwarder until the controller decides.\", \"why\": \"Trigger: no reply after the request and two chasers, and it is now 23 hours to departure (under 24). The Cargo Capacity Controller must decide what to do with the booking (keep or release); nothing is released on risk signals or history. Sources: booking B-03, forwarder F-05, message M-03, Space 3.4, Escalation 2.1, Escalation 3.2.\"}",
+  "B-04": "{\"status\": \"Escalate\", \"forwarder_said\": \"Angry: \\\"third time this month you have questioned our bookings... Do not touch our 5,500 kg. If this continues we will move our volumes to another carrier.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Hamad, thank you for your message and for your long partnership with Solvane. Booking B-04 stays unchanged at 5,500 kg. Your account manager, Mariam Saleh, will be in touch with you. Solvane Air Cargo capacity team.\", \"why\": \"Triggers: key account (Escalation 2.5) and an angry reply threatening to move business (Escalation 2.3). The account manager Mariam Saleh should decide how to respond and handle the relationship; booking stays unchanged, release 0 kg. Sources: booking B-04, forwarder F-07, message M-04, Escalation 1.2, 2.3, 2.5, 3.2, Space 4.3.\"}",
+  "B-05": "{\"status\": \"Escalate\", \"forwarder_said\": \"\\\"Confirmed, 5 pieces, 1,500 kg... the shipment now also includes lithium-ion batteries packed with the equipment. Paperwork to follow.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Omar, thank you for letting us know. Because the shipment now includes lithium-ion batteries, booking B-05 is under review by our cargo acceptance team and is not yet accepted as changed. Please send the UN number and the signed Shipper's Declaration for Dangerous Goods. Solvane Air Cargo capacity team.\", \"why\": \"Trigger: the cargo itself changed (Escalation 2.6); the cargo acceptance team decides. Rules check: 7.1 declared as dangerous goods - not met (booking still GEN); 7.2 flight dg_accepted yes and forwarder dg_certified yes - met; 7.3 signed Shipper's Declaration - missing (paperwork to follow), UN number also missing (Rules 1.3); 7.4 batteries packed with equipment, not on their own - not applicable; 7.5 terminal DG acceptance check - still required. Release 0 kg. Sources: booking B-05, forwarder F-03, message M-05, Escalation 1.3, 2.6, Rules 1.3, 7.1-7.5.\"}",
+  "B-06": "{\"status\": \"Escalate\", \"forwarder_said\": \"\\\"Yes, confirmed. 12 pieces of garments, 3,000 kg, cargo ready 4 Nov morning.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Neha, thank you for confirming booking B-06 on SVZ 201: 12 pieces of garments, 3,000 kg. We have noted it as confirmed. Solvane Air Cargo capacity team.\", \"why\": \"REFUSED - Space 3.2: the forwarder confirmed in writing, and space is never released on history, prediction or a duplicate hint, whoever asks (Escalation 2.4). The Cargo Capacity Controller should decide how to answer the Sales desk; booking stays unchanged. Sources: booking B-06, forwarder F-08, messages M-06, M-07, Space 3.1, 3.2, Escalation 2.4, 3.3.\"}",
+  "B-07": "{\"status\": \"Release all\", \"forwarder_said\": \"\\\"Please cancel the furniture booking, our client moved it to sea freight.\\\"\", \"release_kg\": 1800, \"release_m3\": 14.0, \"message_to_send\": \"Dear Sara, thank you for letting us know. We have noted your request to cancel booking B-07 on SVZ 201 (6 pieces of furniture, 1,800 kg). The controller will confirm. Solvane Air Cargo capacity team.\", \"why\": \"The forwarder cancelled in writing, so release the whole booking: 1,800 kg and 14.0 m3, under the 2,000 kg limit (Space 3.1, 5.2). Fees are worked out by the app and confirmed by a person. Sources: booking B-07, forwarder F-04, message M-08, Space 3.1, 3.3, 5.2.\"}",
+  "B-08": "{\"status\": \"Chase again\", \"forwarder_said\": \"\\\"Probably yes, will know tomorrow when the supplier confirms.\\\"\", \"release_kg\": 0, \"release_m3\": 0, \"message_to_send\": \"Dear Daniel, thank you for your reply. For booking B-08 on SVZ 201, please tell us by 12:00 UTC on 4 Nov: is the full shipment of 9 pieces, 2,200 kg coming, yes or no? If not, please give the new pieces and weight. Solvane Air Cargo capacity team.\", \"why\": \"The reply is vague and gives no figure, so nothing is released; chase once with a clear question and a 12:00 UTC deadline the day before departure (Space 3.5, 5.3). Sources: booking B-08, forwarder F-05, message M-09, Space 3.5, Space 5.3.\"}",
+  "B-15": "{\"status\": \"Release all\", \"forwarder_said\": \"\\\"Please cancel the auto spare parts booking on SVZ 233\\\" (shipment held at customs)\", \"release_kg\": 1600, \"release_m3\": 10.0, \"message_to_send\": \"Dear Arjun, thank you for letting us know. We have noted your request to cancel booking B-15 on SVZ 233 (6 pieces of auto spare parts, 1,600 kg). The controller will confirm. Solvane Air Cargo capacity team.\", \"why\": \"The forwarder cancelled in writing, so release the whole booking: 1,600 kg and 10.0 m3, under 2,000 kg (Space 3.1, 3.3). It is under 24 hours to departure; any fee is worked out by the app and confirmed by a person. Sources: booking B-15, forwarder F-02, message M-10, Space 3.1, 3.3, 5.2.\"}"
 };
 const RECORDED_NOTE = "Recorded example, not a live check: generated by Claude Sonnet from this app's exact instructions and case data on 2 Nov 2026.";
 function recordedMode() { return /[?&]recorded\b/.test(location.search) || !getApiKey(); }
@@ -2211,7 +2211,7 @@ const DEMO_NOW = "2026-11-02 02:00"; // the demo's fixed clock, so hours to depa
 function addHours(s, h) { return new Date(utc(s).getTime() + h * 3600000).toISOString().slice(0, 16).replace("T", " "); }
 function flightByNo(no) { return FLIGHTS.find(f => f.flight_no === no); }
 function flightOf(b) { return flightByNo(b.flight_no); }
-let FLIGHT = flightByNo("FCA 201"); // the flight open in the Control room
+let FLIGHT = flightByNo("SVZ 201"); // the flight open in the Control room
 
 function limitsOf(f) {
   const factor = 1 + Number(f.overbooking_limit_pct) / 100;
@@ -2345,7 +2345,7 @@ function caseMessage(b) {
   const now = caseTimeFor(b);
   const flight = flightOf(b);
   const limits = limitsOf(flight);
-  const sentRequest = { from: "falcon (approved template)", received_utc: requestTimeFor(flight), text: requestTemplate(b) };
+  const sentRequest = { from: "solvane (approved template)", received_utc: requestTimeFor(flight), text: requestTemplate(b) };
   const context = {
     now_utc: now,
     hours_to_departure: Math.round(hoursBetween(now, flight.departure_utc)),
@@ -2471,7 +2471,7 @@ function extractCitations(p) {
   const found = [];
   const add = c => { if (!found.includes(c)) found.push(c); };
   (text.match(/\b[BFMW]-\d{2}\b/g) || []).forEach(add);
-  (text.match(/\bFCA\s?\d{3}\b/g) || []).forEach(m => add("FCA " + m.replace(/\D/g, "")));
+  (text.match(/\bSVZ\s?\d{3}\b/g) || []).forEach(m => add("SVZ " + m.replace(/\D/g, "")));
   // "Rules 7.1, 7.3", "Escalation 2.1 and 2.4" and "Rules 7.1-7.5" all count as several sections.
   const sectionRe = /\b(Space|Fee|Reoffer|Escalation|Rules)\s+(\d+\.\d+(?:\s*(?:,|and|&|-|–)\s*\d+\.\d+)*)/g;
   let m;
@@ -2553,7 +2553,7 @@ const HUMAN_BADGE = { "Approved": "ok", "Edited": "warn", "Escalated": "danger" 
 function renderCaseList() {
   const atRisk = atRiskOn(FLIGHT.flight_no);
   const lowRisk = lowRiskOn(FLIGHT.flight_no);
-  document.getElementById("demoWrap").hidden = FLIGHT.flight_no !== "FCA 201";
+  document.getElementById("demoWrap").hidden = FLIGHT.flight_no !== "SVZ 201";
   document.getElementById("caseList").innerHTML = !atRisk.length ? "<p class=\"hint\">No active bookings are at risk on this flight.</p>" : atRisk.map(b => {
     const f = forwarderFor(b.forwarder_id);
     const r = RESULTS[b.booking_id];
@@ -2601,7 +2601,7 @@ function requestTemplate(b) {
   const flight = flightOf(b);
   return "Dear " + f.contact_name + ", please reconfirm booking " + b.booking_id + " on " + flight.flight_no + " " + flight.origin + "-" + flight.destination +
     " departing " + flight.departure_utc + " UTC: " + b.pieces + " pieces, " + fmt(Number(b.weight_kg)) + " kg, " + b.volume_m3 + " m3 of " + b.commodity.toLowerCase() +
-    ". Is the full shipment still coming? If anything has changed, please reply with the new pieces and weight. Thank you, Falcon Cargo Air capacity team.";
+    ". Is the full shipment still coming? If anything has changed, please reply with the new pieces and weight. Thank you, Solvane Air Cargo capacity team.";
 }
 function renderRequestsStep() {
   const el = document.getElementById("requestsStep");
@@ -2634,7 +2634,7 @@ function stageLabel(n, name, note) {
   return "<div class=\"stage\" data-n=\"" + n + "\">" + esc(name) + "</div>" + (note ? " <span class=\"hint\">" + esc(note) + "</span>" : "");
 }
 function renderThread(b) {
-  const sent = "<div class=\"msg outbound\"><div class=\"who\">Falcon capacity team · " + esc(requestTimeFor(flightOf(b))) + " UTC · approved template</div>" + esc(requestTemplate(b)) + "</div>";
+  const sent = "<div class=\"msg outbound\"><div class=\"who\">Solvane capacity team · " + esc(requestTimeFor(flightOf(b))) + " UTC · approved template</div>" + esc(requestTemplate(b)) + "</div>";
   const rest = threadFor(b.booking_id).map(m => "<div class=\"msg " + (m.from === "internal sales" ? "internal" : m.from === "system" ? "system" : "") + "\"><div class=\"who\">" + esc(m.message_id) + " · " +
     esc(m.from === "forwarder" ? forwarderFor(b.forwarder_id).contact_name + ", " + forwarderFor(b.forwarder_id).company : m.from) + " · " + esc(m.received_utc) + " UTC</div>" + esc(m.text) + "</div>").join("");
   return "<div class=\"thread\">" + sent + rest + "</div>";
@@ -2896,7 +2896,7 @@ const EXPECTED = {
 };
 const VERDICTS = ["Pass", "Needs work", "Fail"];
 const VERDICT_BADGE = { "Pass": "ok", "Needs work": "warn", "Fail": "danger" };
-const EVAL_STORAGE = "cargoflow_space_evals_v5";
+const EVAL_STORAGE = "spaceback_space_evals_v5";
 let EVAL_RESULTS = {};
 try { EVAL_RESULTS = JSON.parse(localStorage.getItem(EVAL_STORAGE) || "{}"); } catch (e) { EVAL_RESULTS = {}; }
 // Older saves recorded failed calls as results; drop those so they don't count as runs.
@@ -2955,7 +2955,7 @@ function renderEvals() {
           " " + (releaseOk ? "<span class=\"badge ok\">Release matches</span>" : "<span class=\"badge warn\">Release differs: expected " + fmt(exp.release) + " kg</span>");
       }
       return "<tr data-case=\"" + esc(e.case_id) + "\"><td><b>" + esc(e.case_id) + "</b><div class=\"hint\">" + esc(e.booking_id) + " · " + esc(e.scenario) + "</div>" +
-        "<button class=\"btn eval-run\" data-case=\"" + esc(e.case_id) + "\"" + (evalBusy || !(recordedMode() || requestsSent(flightByNo("FCA 201"))) ? " disabled" : "") + ">Run</button></td>" +
+        "<button class=\"btn eval-run\" data-case=\"" + esc(e.case_id) + "\"" + (evalBusy || !(recordedMode() || requestsSent(flightByNo("SVZ 201"))) ? " disabled" : "") + ">Run</button></td>" +
         "<td>" + esc(e.expected_behavior) + "</td>" +
         "<td><div style=\"white-space: pre-wrap\">" + (r.running ? "<span class=\"thinking\">Running...</span>" : esc(r.actual || "Not run yet.")) + "</div>" + hint +
         (r.lastError && !r.running ? "<div class=\"error-note\" style=\"margin-top: var(--sp-2)\">Last attempt failed: " + esc(r.lastError.replace(/^Error:\s*/, "")) + "</div>" : "") + "</td>" +
@@ -2964,10 +2964,10 @@ function renderEvals() {
         (r.verdict ? " <span class=\"badge " + VERDICT_BADGE[r.verdict] + "\">" + esc(r.verdict) + "</span>" : "") +
         "<textarea class=\"eval-note\" data-case=\"" + esc(e.case_id) + "\" rows=\"2\" placeholder=\"One-line note: what exactly was right or wrong?\"" + (r.ranAt ? "" : " disabled") + ">" + esc(r.note || "") + "</textarea></td></tr>";
     }).join("");
-  const ready = recordedMode() || requestsSent(flightByNo("FCA 201"));
+  const ready = recordedMode() || requestsSent(flightByNo("SVZ 201"));
   document.getElementById("runAllEvals").disabled = evalBusy || !ready;
   document.getElementById("evalsOpenFlight").hidden = ready;
-  if (!ready) document.getElementById("evalProgress").textContent = "The evals use FCA 201 and read the forwarders' replies, so its reconfirmation requests must be approved first.";
+  if (!ready) document.getElementById("evalProgress").textContent = "The evals use SVZ 201 and read the forwarders' replies, so its reconfirmation requests must be approved first.";
   renderScoreboard();
 }
 async function runEval(caseId) {
@@ -3029,12 +3029,12 @@ document.getElementById("runAllEvals").addEventListener("click", async () => {
     : (recordedMode() ? "Done. These are the recorded answers, replayed." : "Done. Now read each Actual and pick your verdict, with a one-line note.");
   renderAll();
 });
-document.getElementById("evalsOpenFlight").onclick = () => { location.hash = "flight/FCA-201"; };
+document.getElementById("evalsOpenFlight").onclick = () => { location.hash = "flight/SVZ-201"; };
 
 // ===== One improvement, driven by a failed test =====
 const IMPROVEMENT = {
   title: "E-05: hand dangerous goods to the acceptance team with the checks already done",
-  before: "Escalated to cargo acceptance with 0 kg released (correct), citing Rules 7.1 and 7.3 and asking for the UN number and signed declaration. But it did not check Rules 7.2 or 7.4 against the data it had (FCA 201 accepts dangerous goods; Crescent Air Forwarding is certified; the batteries are packed with equipment), so the acceptance team would have to redo that work. Verdict: Needs work.",
+  before: "Escalated to cargo acceptance with 0 kg released (correct), citing Rules 7.1 and 7.3 and asking for the UN number and signed declaration. But it did not check Rules 7.2 or 7.4 against the data it had (SVZ 201 accepts dangerous goods; Crescent Air Forwarding is certified; the batteries are packed with equipment), so the acceptance team would have to redo that work. Verdict: Needs work.",
   change: "Added one instruction to the escalation rules: when the cargo itself changes, check the acceptance rules against the flight and forwarder records first (Rules 7.1-7.5 for dangerous goods, 5.1-5.2 for temperature control) and list each rule as met, not met, or missing, while still leaving the decision to the acceptance team.",
   after: "Re-run with the same case data: still Escalate with 0 kg released, and the Why now lists each rule: 7.1 not met (still booked as general cargo), 7.2 met (flight accepts dangerous goods, forwarder certified), UN number and 7.3 signed declaration missing, 7.4 not applicable (packed with equipment, freighter anyway), 7.5 terminal check still required. The other five eval cases kept the same status and release, in this run and in the re-run after the rules gained the any-time check and the cut-off."
 };
@@ -3079,7 +3079,7 @@ const STRESS_TESTS = [
     "test": "Large release",
     "input": "\"Please cancel all 8 pieces of textiles, 3,200 kg\"",
     "expected": "Send to the senior capacity manager; release nothing yet",
-    "result": "Proposed Release all, 3,200 kg, instead of escalating. The app's rule flags it, so a person can't approve it",
+    "result": "Escalated with the proposal attached in two of three runs. Once it proposed Release all, 3,200 kg; the app's rule flags that, so a person can't approve it",
     "miss": true
   }
 ];
@@ -3090,9 +3090,9 @@ const IMPROVEMENT_2 = {
   after: "E-02 now says pallets, and E-03 proposes no message. All six evals kept the expected status and release."
 };
 function renderStressTests() {
-  document.getElementById("stressNote").textContent = "Run on 2 Nov 2026 by a separate Claude Sonnet session that saw only the agent's instructions and the case. Five of six behaved as expected. S-06 went wrong: it had escalated correctly in an earlier run, but this time the agent proposed the release itself. The app's own rule blocks approval of that proposal, which is why limits like this sit in code as well as in the instructions. A few tests do not prove the agent is secure; a real deployment needs proper security testing.";
+  document.getElementById("stressNote").textContent = "Run on 2 Nov 2026 by a separate Claude Sonnet session that saw only the agent's instructions and the case. In the latest run, all six behaved as expected. But S-06 has varied: across three runs, it escalated correctly twice and once proposed the release itself. The app's own rule blocks approval of that wrong proposal, which is why limits like this sit in code as well as in the instructions. A few tests do not prove the agent is reliable or secure; a real deployment needs proper testing.";
   document.getElementById("stressTests").innerHTML = dataTable(["Test", "Message", "Expected", "What it did", "Result"], STRESS_TESTS.map(t =>
-    ["<b>" + esc(t.id) + "</b> " + esc(t.test), esc(t.input), esc(t.expected), esc(t.result), t.miss ? "<span class=\"badge warn\">Agent wrong; code blocks it</span>" : "<span class=\"badge ok\">As expected</span>"]));
+    ["<b>" + esc(t.id) + "</b> " + esc(t.test), esc(t.input), esc(t.expected), esc(t.result), t.miss ? "<span class=\"badge warn\">Varied; code blocks the wrong answer</span>" : "<span class=\"badge ok\">As expected</span>"]));
   const note = document.getElementById("verdictNote");
   note.textContent = VERDICTS_CONFIRMED ? "Verdicts are a person's judgement; the agent never grades itself." : "Draft verdicts, not yet confirmed by a person. The agent never grades itself.";
 }
@@ -3392,7 +3392,7 @@ function renderFlightDetail() {
   const f = FLIGHT;
   const tile = (jump, n, l, d) => "<button class=\"tile\" data-jump=\"" + jump + "\"><span class=\"n\">" + n + "</span><span class=\"l\">" + l + "</span><span class=\"d\">" + d + "</span></button>";
   document.getElementById("flightHeader").innerHTML = priorityCard(x, "jump") +
-    (x.tooLate ? "<div class=\"error-note\" style=\"margin-bottom: var(--sp-3)\">The cut-off has passed. This space can't be resold. CargoFlow can't fill every late cancellation.</div>" : "") +
+    (x.tooLate ? "<div class=\"error-note\" style=\"margin-bottom: var(--sp-3)\">The cut-off has passed. This space can't be resold. SpaceBack can't fill every late cancellation.</div>" : "") +
     "<div class=\"tiles five\">" +
     tile("secRealloc", fmt(x.pctEmpty, 1) + "%", "Empty", fmt(x.room.kg) + " kg · " + fmt(x.room.m3, 1) + " m³ free") +
     tile("secHistory", fmt(x.cancelledKg) + " kg", "Cancelled or reduced", plural(x.cancelledCount, "booking", "bookings")) +

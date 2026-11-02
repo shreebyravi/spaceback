@@ -1,10 +1,10 @@
-# CargoFlow AI
+# SpaceBack AI
 
-**Every week, cargo space is booked, then flies empty. CargoFlow helps your capacity team get it back before cut-off.**
+**Every week, cargo space is booked, then flies empty. SpaceBack helps your capacity team get it back before cut-off.**
 
 An AI agent prototype for airline cargo teams. It shows what changed on every upcoming flight, reads forwarder replies, and helps a person resell freed space, with human approval at every step.
 
-**[Try it, no login needed](https://shreebyravi.github.io/cargoflow/)** | **[One-page pitch](docs/PITCH.md)** | **Status:** prototype with made-up data
+**[Try it, no login needed](https://shreebyravi.github.io/spaceback/)** | **[One-page pitch](docs/PITCH.md)** | **Status:** prototype with made-up data
 
 ![Cargo Space Control dashboard](docs/images/dashboard.jpg)
 
@@ -31,13 +31,17 @@ Airlines and vendors can already predict which bookings may not show. Fees recov
 - **Code handles what must be exact:** space, fees and rule checks.
 - **AI handles what needs reading:** free-text replies and draft messages.
 - **People decide what has consequences:** every message, release and offer.
-- **Limits are enforced twice.** In one stress test, the agent wrongly proposed a 3,200 kg release. The app's own rule blocked approval.
+- **Limits are enforced twice.** In one of three runs of a stress test, the agent wrongly proposed a 3,200 kg release. The app's own rule blocks approval of that answer.
+
+## AI product decisions
+
+What should AI do and what should code do? How much freedom should the agent get? How do you handle answers that vary? This project's [AI product decisions](docs/AI_PRODUCT_DECISIONS.md) covers those choices, their trade-offs, what a real implementation would add, and my role.
 
 ## How it was tested
 
 - **Six eval cases**, with expected results written first. All six matched in the latest run, with 6 Pass verdicts from a person.
 - **Two documented improvements**, each driven by a test result.
-- **Six stress tests**, including a trick message, a fake approval and a reply in Arabic. Five behaved as expected, and one is the miss above.
+- **Six stress tests**, including a trick message, a fake approval and a reply in Arabic. All six behaved as expected in the latest run, but one varied across runs, as described above.
 
 The answers shown are recorded examples from a separate Claude Sonnet session, because no API credit was available. A full live run hasn't been done. Details are in [docs/EVALS.md](docs/EVALS.md).
 

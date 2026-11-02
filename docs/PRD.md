@@ -1,15 +1,15 @@
-# CargoFlow: Product requirements
+# SpaceBack: Product requirements
 
 | | |
 |---|---|
-| **Product** | CargoFlow AI, a cargo space recovery agent |
+| **Product** | SpaceBack AI, a cargo space recovery agent |
 | **Owner** | Shree Byravi |
 | **Status** | Prototype with made-up data; not validated by an airline |
 | **Updated** | 2 November 2026 |
 
 ## Summary
 
-CargoFlow helps an airline's capacity team recover cargo space that's booked but won't fly. It shows what changed on every upcoming flight, reads forwarder replies, and helps a person resell freed space before cut-off.
+SpaceBack helps an airline's capacity team recover cargo space that's booked but won't fly. It shows what changed on every upcoming flight, reads forwarder replies, and helps a person resell freed space before cut-off.
 
 ## Problem
 
@@ -80,9 +80,21 @@ None of these has been measured on real operations.
 
 See [DESIGN.md](DESIGN.md), [AGENT_INSTRUCTIONS.md](AGENT_INSTRUCTIONS.md) and [ARCHITECTURE.md](ARCHITECTURE.md).
 
+## AI trade-offs and decisions
+
+| Decision | This prototype | Trade-off |
+|---|---|---|
+| Autonomy | The agent proposes, and a person approves every action | Safer, but saves less time |
+| AI or code | AI reads and drafts; code handles space, fees and rules | More building, but exact results where they matter |
+| Context | One case and the full policy text | Simple, but wouldn't scale to large manuals |
+| Variation | Hard limits sit in code as well as the instructions | Some duplication, but a wrong answer can be blocked |
+| Evidence | Small eval set and recorded answers | Quick to learn from, but not proof of live performance |
+
+See [AI_PRODUCT_DECISIONS.md](AI_PRODUCT_DECISIONS.md) for the full set of decisions, what a real implementation would add, and Shree Byravi's role.
+
 ## Testing
 
-Six eval cases and six stress tests are in [EVALS.md](EVALS.md). In the latest recorded run, all six evals matched, and five of six stress tests behaved as expected. In the sixth, the agent wrongly proposed a large release, and the app's rule blocks approval. A full live run hasn't been done.
+Six eval cases and six stress tests are in [EVALS.md](EVALS.md). In the latest recorded run, all six evals matched and all six stress tests behaved as expected. One stress test varied: in one of three runs, the agent wrongly proposed a large release, and the app's rule blocks approval of that answer. A full live run hasn't been done.
 
 ## Dependencies and open questions
 

@@ -1,8 +1,8 @@
 {
   "status": "Escalate",
-  "forwarder_said": "No reply to the request or to chaser 1 and chaser 2.",
+  "forwarder_said": "No reply received to the reconfirmation request or to chaser 1 and chaser 2.",
   "release_kg": 0,
   "release_m3": 0,
   "message_to_send": "No message to the forwarder until the controller decides.",
-  "why": "Trigger: no reply after the request and two chasers, 23 hours before departure (Escalation 2.1). The Cargo Capacity Controller must decide how to handle the booking; nothing is released on risk signals R1-R3 or history (Space 3.2, 3.4), and the booking stays unchanged (Escalation 3.2). Sources: booking B-03, forwarder F-05, message M-03, Space 3.4, Escalation 2.1, Escalation 3.2."
+  "why": "Trigger: no reply after the request and two chasers, and it is now 23 hours to departure (under 24). The Cargo Capacity Controller must decide what to do with the booking (keep or release); nothing is released on risk signals or history. Sources: booking B-03, forwarder F-05, message M-03, Space 3.4, Escalation 2.1, Escalation 3.2."
 }

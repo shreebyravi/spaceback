@@ -3,6 +3,6 @@
   "forwarder_said": "\"Probably yes, will know tomorrow when the supplier confirms.\"",
   "release_kg": 0,
   "release_m3": 0,
-  "message_to_send": "Dear Daniel, thank you for your reply. Please confirm with a yes or no whether all 9 pieces of household goods, 2,200 kg, will ship on FCA 201, and give the weight if it has changed. We need your answer by 12:00 UTC on 2026-11-04. Kind regards, Falcon Cargo Air capacity team.",
-  "why": "The reply is vague, so chase with one clear question and a 12:00 UTC deadline the day before departure (Space 3.5, 5.3); nothing is released (Space 3.1, 3.2). Sources: booking B-08, forwarder F-05, message M-09, Space 3.5, Space 5.3."
+  "message_to_send": "Dear Daniel, thank you for your reply. For booking B-08 on SVZ 201, please tell us by 12:00 UTC on 4 Nov: is the full shipment of 9 pieces, 2,200 kg coming, yes or no? If not, please give the new pieces and weight. Solvane Air Cargo capacity team.",
+  "why": "The reply is vague and gives no figure, so nothing is released; chase once with a clear question and a 12:00 UTC deadline the day before departure (Space 3.5, 5.3). Sources: booking B-08, forwarder F-05, message M-09, Space 3.5, Space 5.3."
 }

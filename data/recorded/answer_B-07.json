@@ -3,6 +3,6 @@
   "forwarder_said": "\"Please cancel the furniture booking, our client moved it to sea freight.\"",
   "release_kg": 1800,
   "release_m3": 14.0,
-  "message_to_send": "Dear Sara, thank you for letting us know. We have noted your request to cancel booking B-07 (6 pieces of furniture, 1,800 kg) on FCA 201. The controller will confirm the cancellation. Kind regards, Falcon Cargo Air capacity team.",
-  "why": "Forwarder cancelled the full booking in writing, so release all 1,800 kg and 14.0 m3 (Space 3.1, 5.2); the app handles fees and re-offers. Sources: booking B-07, forwarder F-04, message M-08, Space 3.1, Space 3.3, Space 5.2."
+  "message_to_send": "Dear Sara, thank you for letting us know. We have noted your request to cancel booking B-07 on SVZ 201 (6 pieces of furniture, 1,800 kg). The controller will confirm. Solvane Air Cargo capacity team.",
+  "why": "The forwarder cancelled in writing, so release the whole booking: 1,800 kg and 14.0 m3, under the 2,000 kg limit (Space 3.1, 5.2). Fees are worked out by the app and confirmed by a person. Sources: booking B-07, forwarder F-04, message M-08, Space 3.1, 3.3, 5.2."
 }

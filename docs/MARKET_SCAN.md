@@ -1,4 +1,4 @@
-# CargoFlow: Market scan
+# SpaceBack: Market scan
 
 Public desk research, last updated 2 November 2026. It uses vendor pages and trade press, which are often marketing. It doesn't include private demos, contracts or airlines' in-house tools.
 
@@ -27,13 +27,13 @@ Public desk research, last updated 2 November 2026. It uses vendor pages and tra
 - **Vendor capacity modules:** detailed documentation isn't public, including iCargo's and Cargospot's. Allotment release or waitlist features may exist there.
 - **In-house tools:** airlines may run processes no vendor page shows.
 
-## How CargoFlow would fit
+## How SpaceBack would fit
 
-CargoFlow could work with these tools rather than replace them. A prediction system could say which bookings to ask about first, and a booking system would remain the record. CargoFlow would add the follow-through in between.
+SpaceBack could work with these tools rather than replace them. A prediction system could say which bookings to ask about first, and a booking system would remain the record. SpaceBack would add the follow-through in between.
 
 ## The main risk
 
-A larger vendor with booking-system access could add this capability. CargoFlow's prototype value is showing the workflow, and that value doesn't depend on being the only one able to build it.
+A larger vendor with booking-system access could add this capability. SpaceBack's prototype value is showing the workflow, and that value doesn't depend on being the only one able to build it.
 
 ## What to ask an airline
 

@@ -1,4 +1,4 @@
-# CargoFlow: Decision log
+# SpaceBack: Decision log
 
 Key product decisions and why they were made. A later decision replaces an earlier one; nothing is rewritten.
 
@@ -25,3 +25,4 @@ Key product decisions and why they were made. A later decision replaces an earli
 | 19 | 2 Nov 2026 | Publish limits and "Needs work" results | An airline will find weaknesses anyway, and honesty builds trust | Show only passing results |
 | 20 | 2 Nov 2026 | Use a fictional airline and an original aviation look | The page must not imply affiliation with any airline | Copy an airline's branding |
 | 21 | 2 Nov 2026 | Forwarder's own words in messages; no third chaser | Fixes for E-02 and E-03 from the quality checks | Accept the wording and the extra chaser |
+| 22 | 2 Nov 2026 | Rename the product SpaceBack and the fictional airline Solvane Air Cargo, flight code SVZ | Earlier names were close to real aviation and logistics brands in the same region | Keep the earlier names |

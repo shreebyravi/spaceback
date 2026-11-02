@@ -1,4 +1,4 @@
-# CargoFlow: Recover cargo space before it flies empty
+# SpaceBack: Recover cargo space before it flies empty
 
 **The ask:** 30 minutes with a capacity or revenue management lead, to test whether this workflow matches your reality and whether a small pilot on one route is worth exploring.
 
@@ -16,7 +16,7 @@ Tools can predict which bookings may not show. Inbox tools can handle incoming r
 
 This is still a hypothesis, and your team is best placed to test it.
 
-## What CargoFlow does
+## What SpaceBack does
 
 - **One view of what matters now:** every flight ranked by what can still be saved, with plain reasons for each at-risk shipment.
 - **AI that reads messy replies:** "only 2 of 4 pallets, about 1,200 kg" becomes a proposal with its sources.
@@ -30,7 +30,7 @@ This is still a hypothesis, and your team is best placed to test it.
 - It never releases on prediction alone, whoever asks.
 - Dangerous goods, load control and security stay with their current owners.
 
-In testing, the agent refused a trick message and a fake approval. In one test it wrongly proposed a large release, and the app's own rule blocked approval. That's the reason for keeping limits in code.
+In testing, the agent refused a trick message and a fake approval. In one of three runs of another test, it wrongly proposed a large release, and the app's own rule blocks approval of that answer. That's the reason for keeping limits in code.
 
 ## What exists today
 
@@ -50,6 +50,6 @@ A working prototype with made-up data. It includes a dashboard, the agent workfl
 
 ## See it
 
-- **Try the prototype:** https://shreebyravi.github.io/cargoflow/
-- **Read the documents:** https://github.com/shreebyravi/cargoflow
+- **Try the prototype:** https://shreebyravi.github.io/spaceback/
+- **Read the documents:** https://github.com/shreebyravi/spaceback
 - **Contact Shree Byravi:** https://www.linkedin.com/in/shree-byravi/

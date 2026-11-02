@@ -1,4 +1,4 @@
-# Falcon Cargo Air: Escalation Policy (fictional)
+# Solvane Air Cargo: Escalation Policy (fictional)
 
 Simplified, fictional policy for a prototype. Cite it by section, for example "Escalation 2.3".
 

@@ -1,4 +1,4 @@
-# Falcon Cargo Air: Re-offer Rules (fictional)
+# Solvane Air Cargo: Re-offer Rules (fictional)
 
 Simplified, fictional rules for a prototype. Cite them by section, for example "Reoffer 1.5". The app checks these rules in plain code; a person approves every re-offer.
 

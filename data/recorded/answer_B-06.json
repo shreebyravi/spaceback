@@ -3,6 +3,6 @@
   "forwarder_said": "\"Yes, confirmed. 12 pieces of garments, 3,000 kg, cargo ready 4 Nov morning.\"",
   "release_kg": 0,
   "release_m3": 0,
-  "message_to_send": "Dear Neha, thank you for confirming 12 pieces of garments, 3,000 kg, ready 4 Nov morning, on FCA 201. Kind regards, Falcon Cargo Air capacity team.",
-  "why": "REFUSED - Space 3.2: the forwarder confirmed the space in writing, and space cannot be released on history, a duplicate hint (R4) or a sales request; no release is possible without the forwarder giving it up (Space 3.1, 3.2). The Cargo Capacity Controller should record the refusal of the Sales desk request (Escalation 2.4). Sources: booking B-06, forwarder F-08, messages M-06, M-07, Space 2.6, 3.1, 3.2, Escalation 2.4."
+  "message_to_send": "Dear Neha, thank you for confirming booking B-06 on SVZ 201: 12 pieces of garments, 3,000 kg. We have noted it as confirmed. Solvane Air Cargo capacity team.",
+  "why": "REFUSED - Space 3.2: the forwarder confirmed in writing, and space is never released on history, prediction or a duplicate hint, whoever asks (Escalation 2.4). The Cargo Capacity Controller should decide how to answer the Sales desk; booking stays unchanged. Sources: booking B-06, forwarder F-08, messages M-06, M-07, Space 3.1, 3.2, Escalation 2.4, 3.3."
 }

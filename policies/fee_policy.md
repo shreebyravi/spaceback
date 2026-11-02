@@ -1,4 +1,4 @@
-# Falcon Cargo Air: Late Change and No-Show Fee Policy (fictional)
+# Solvane Air Cargo: Late Change and No-Show Fee Policy (fictional)
 
 Simplified, fictional fee table for a prototype. Cite it by section, for example "Fee 1.2". The app works out every fee from this table. The agent never calculates, changes or waives a fee.
 

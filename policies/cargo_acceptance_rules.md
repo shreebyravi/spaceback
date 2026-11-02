@@ -1,4 +1,4 @@
-# Falcon Cargo Air: Cargo Acceptance Rules (fictional)
+# Solvane Air Cargo: Cargo Acceptance Rules (fictional)
 
 These are simplified, fictional rules for a prototype. They are not real airline rules or IATA regulations. Cite them by section number, for example "Rules 5.1".
 
