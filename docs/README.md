@@ -5,6 +5,7 @@ The documents a team would expect when building this inside an airline or a soft
 | Read this | To learn |
 |---|---|
 | [PITCH.md](PITCH.md) | The one-page case for a pilot |
+| [CASE_STUDY.md](CASE_STUDY.md) | The story: decisions, what went wrong and what I learned |
 | [PRD.md](PRD.md) | What we're building, for whom and why |
 | [DISCOVERY.md](DISCOVERY.md) | The problem, the evidence and the gap |
 | [MARKET_SCAN.md](MARKET_SCAN.md) | What exists today, and what we couldn't check |
@@ -17,4 +18,6 @@ The documents a team would expect when building this inside an airline or a soft
 | [EVALS.md](EVALS.md) | How it was tested, including what went wrong |
 | [RISK_AND_COMPLIANCE.md](RISK_AND_COMPLIANCE.md) | What could go wrong, and what real use needs |
 | [LAUNCH_PLAN.md](LAUNCH_PLAN.md) | Launch stages, what's required, owners, post-launch metrics and rollback |
+| [BUSINESS_CASE.md](BUSINESS_CASE.md) | A break-even model to fill in with real numbers, not a forecast |
+| [BACKLOG.md](BACKLOG.md) | Next-scope user stories with acceptance criteria |
 | [ROADMAP.md](ROADMAP.md) | The next two scopes |

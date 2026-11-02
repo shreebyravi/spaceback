@@ -35,7 +35,7 @@ Airlines and vendors can already predict which bookings may not show. Fees recov
 
 ## AI product decisions
 
-What should AI do and what should code do? How much freedom should the agent get? How do you handle answers that vary? This project's [AI product decisions](docs/AI_PRODUCT_DECISIONS.md) covers those choices, their trade-offs, what a real implementation would add, and my role.
+What should AI do and what should code do? How much freedom should the agent get? How do you handle answers that vary? This project's [AI product decisions](docs/AI_PRODUCT_DECISIONS.md) covers those choices, their trade-offs, what a real implementation would add, and my role. See also the [case study](docs/CASE_STUDY.md), [break-even model](docs/BUSINESS_CASE.md) and [backlog](docs/BACKLOG.md).
 
 ## How it was tested
 
