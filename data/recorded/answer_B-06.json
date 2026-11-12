@@ -1,0 +1,8 @@
+{
+  "status": "Escalate",
+  "forwarder_said": "\"Yes, confirmed. 12 pieces of garments, 3,000 kg, cargo ready 4 Nov morning.\"",
+  "release_kg": 0,
+  "release_m3": 0,
+  "message_to_send": "Dear Neha, thank you for confirming booking B-06 on SVZ 201: 12 pieces of garments, 3,000 kg. We have noted it as confirmed. Solvane Air Cargo capacity team.",
+  "why": "REFUSED - Space 3.2: the forwarder confirmed in writing, and space is never released on history, prediction or a duplicate hint, whoever asks (Escalation 2.4). The Cargo Capacity Controller should decide how to answer the Sales desk; booking stays unchanged. Sources: booking B-06, forwarder F-08, messages M-06, M-07, Space 3.1, 3.2, Escalation 2.4, 3.3."
+}
